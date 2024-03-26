@@ -72,7 +72,14 @@ Ebook: 978-1-955811-57-6
 Failure is the Only Option
 
 <ins>The reason for my success</ins>
-Let me start by saying that I am a big fan of taking calculated and mitigated risks. These risks natrually come with the potential for 'failure', regardless of how much you attempt to mitigate. I don't consider it a failure if you don't succeed at your chosen task, yet you learn from the experience. 
+
+There are two key ingredients to my success and they are something we can all take advantage of. I understand that there may be some argument about the latter of the two but allow me to speak to it to see if I can help you see a bit from my view.
+
+Firstly let me start by saying that I am a big fan of taking calculated and mitigated risks. These risks natrually come with the potential for 'failure', regardless of how much you attempt to mitigate. I don't consider it a failure if you don't succeed at your chosen task, yet you learn from the experience. 
+
+After you build some confidence and reduce your ego such that you are willing to take risks and fail, you must take advantage of opportunity. I have been successful because people have taken risks on me, and I have jumped at every opportunity that was placed in front of me. Some may say that I have been lucky in this regard, but I don't see it quite that way. When I say that I took advantage of every opportunity, I mean EVERY opportunity no matter how small. Skills are built from experiences regardless of how small. They feed and build on each other. It doesn't have to be a huge opportunity for it to have value. It can be something as small as additional responsibility or a minor role in a project. As my leadership saw my willingness to commit myself to tasks and drive value, they began to have confidence in offering me greater responsibility. I have had several leaders in my past take a chance on me, and I focused on proving to them that their choice was valid. When it is your time to lead, pay that forward and look for those that are ready for you to take a chance on *them*.
+
+I hope to share with you the experiences that have shaped me and my career. Your results and experiences will vary, and what you chose to do with that data is up to you. I encourage you to write your own book as you go! Be fearless, take risks, learn from mistakes, and never stop learning.
 
 
 
