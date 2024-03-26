@@ -1,6 +1,3 @@
-<p align="center">
-  <img width="200" src="published_files/cover.png">
-</p>
 
 
 # Welcome
