@@ -39,6 +39,9 @@ Ebook: 978-1-955811-57-6
   - [Leadership Responsibilities](#leadership-responsibilities)
   - [Which Type of Startup CTO Are You?](#which-type-of-startup-cto-are-you)
     - [The Tech-Focused CTO *AKA The Chief Architect*](#the-tech-focused-cto-aka-the-chief-architect)
+  - [Macro \& Micro Culture] (#culture)
+    - [The Culture at Large] (#macro-culture)
+    - [The Culture at Ground Level] (#micro-culture)
 - [Technical Team Management](#technical-team-management)
   - [Tech Culture and General Philosophy](#tech-culture-and-general-philosophy)
   - [Tech Debt](#tech-debt)
@@ -65,6 +68,13 @@ Ebook: 978-1-955811-57-6
 - [About the publisher](#about-the-publisher)
 
 # Introduction
+
+Failure is the Only Option
+
+<ins>The reason for my success</ins>
+Let me start by saying that I am a big fan of taking calculated and mitigated risks. These risks natrually come with the potential for 'failure', regardless of how much you attempt to mitigate. I don't consider it a failure if you don't succeed at your chosen task, yet you learn from the experience. 
+
+
 
 Always Be Learning
 
@@ -138,6 +148,8 @@ As a leader of a software engineering team, chances are you've encountered some 
 
 * Enduring slow decision-making or endless circular arguments among technical staff about how to architect and build your system.
 
+* Making difficult decisions about what good/great idea NOT to do and managing the unmet needs of partners in the organization.
+
 It would seem that every technical leader faces these issues at one time or another, and yet advice on how to handle them is inconveniently left out of nearly every business or technical curriculum.
 
 My aim is to provide perspective on these problems and more, as well as offer context on how various techniques play out in the real world. The goal is to arm the reader with an understanding of the tradeoffs, some visibility to see around the corner, and frameworks that will prepare you to make your own well-reasoned decisions.
@@ -162,12 +174,13 @@ Depending on the size of your team and company, what is described here might app
 ## Management Fundamentals
 
 Recommended Reading: *Managing Humans* by Michael Lopp
+This book is a great read for first time managers. It has a fun whimsical approach that is very approachable and appeals to the young manager. 
 
 The golden rule of management: do what it takes to get the best out of your team. In technical leadership as in any other leadership role, the best measure of your performance as a manager is the performance of the team itself. That means you should be thinking about and spending time doing everything necessary to help individual team members do their best work, both independently and collectively.
 
 Helping your team succeed requires humility, as it entails consistently putting the needs of your direct reports above your own. You will need to adjust and tweak your style, behavior, thinking, and actions to suit the needs of members of your engineering team. That will include being willing to be wrong, being open-minded, and learning from your direct reports.
 
-If you buy into this journey, know that you will make mistakes. Own those mistakes with your team and they will trust you more for it. Also know that being a perfect manager is not an achievable goal; the best you can hope for is to always be improving in small ways. After a career spent managing people, you'll have learned a lifetime of lessons about technology and human beings that will make you a more competent manager.
+If you buy into this journey, know that you will make mistakes. Own those mistakes with your team and they will trust you more for it. Also know that being a perfect manager is not an achievable goal; the best you can hope for is to always be improving in small ways. In other words, progress over perfection. After a career spent managing people, you'll have learned a lifetime of lessons about technology and human beings that will make you a more competent manager.
 
 In *Managing Humans: Biting and Humorous Tales of a Software Engineering Manager*, Michael Lopp writes:
 
@@ -178,17 +191,17 @@ In that one succinct paragraph, Lopp hits on all the key points of management. F
 
 ### The Professional Skill Tree
 
-Many video games involve a concept of a skill tree. For those unfamiliar, a skill tree is a sequence of skills or abilities that are unlocked as the player progresses through the game. Each skill is unlocked by spending skill points. Here's the rub: at any given time, there are more skills to unlock than you have skill points to spend. The skill tree forces you to choose some skills before others. The skill tree provides a reasonable model for your career as well. At any given job, you're likely accumulating skill points toward some skills and not others.
+Many video games involve a concept of a skill tree. For those unfamiliar, a skill tree is a sequence of skills or abilities that are unlocked as the player progresses through the game. Each skill is unlocked by spending skill points. Here's the rub: at any given time, there are more skills to unlock than you have skill points to spend. The skill tree forces you to choose some skills before others. The skill tree provides a reasonable model for your career as well. At any given job, you're likely accumulating skill points toward some skills and not others. The fact of the matter is this, you don't have enough time in your life to get every skill in every tree, so choose wisely. The nice thing is this, if you do go down a path you decide you don't want/like, you have the option to start another path. Don't be afraid of change, it is what strengthens and fortifies us. 
 
-In your journey to tech leadership, you've already invested many skill points into the technical/engineering branch of the skill tree. My key insight for you is that the management branch of the skill tree is equally vast, and if you've not been investing points in that area up to now, even if you're a Level 100 engineer you'll start your new leadership position as a Level 1 manager staring at a mighty oak tree of yet-to-be-unlocked crucial skills. Once your company has more than a small handful of engineers, these skills will make the difference in your ability to scale up with the team.
+In your journey to tech leadership, you've already invested many skill points into the technical/engineering branch of the skill tree. My key insight for you is that the management branch of the skill tree is equally vast, and if you've not been investing points in that area up to now, even if you're a Level 100 engineer you'll start your new leadership position as a Level 1 manager. Why? Because moving from individual contributor to leader is not a promotion, it is a job change. Once your company has more than a small handful of engineers, these skills will make the difference in your ability to scale up with the team.
 
 ### Kaizen: Continuous Improvement
 
 *Kaizen* is the Japanese word for improvement. The phrase was popularized as part of the Toyota Production System. At Toyota, all personnel are given a (literal or metaphorical) red handle to pull that stops the entire production line. If a worker identifies a problem with production, the idea is for them to pull the red handle, gather coworkers and resources to diagnose the issue, and then resolve it before work can continue. By empowering everyone on the team to improve the process and to be invested in its efficacy, Toyota can cost-effectively build higher-quality cars.
 
-I'm not the first to suggest that software engineering has much in common with traditional manufacturing (see *The Phoenix Project* by Gene Kim). In this case, make the metaphor real: provide your team with a digital red handle and encourage them to focus on continuously improving everything you do. Members of great teams understand that, over time, the team will change, customer requirements will change, tools will change, and the team will need to revisit past decisions and make improvements.
+It has long been identified that software development looks and feels a bit like traditional manufacturing and why not, it was adopted from that model. Many have adopted the Toyota Method of quality by pushing quality control down and out in the organization. This means providing everyone not just with a method of pulling the red handle, but the AUTHORITY to do so. A culture of continuous improvement and focus on quality is far better than the annual or quarterly bug bash. Quality should be part of who you are not something you check off a deployment checklist. This type of change must occur over time and it must eveolve with the team. Great engineers and leaders know that the team and environment will evolve over time and that they must evolve with it.
 
-*Kaizen* applies not only to your team's process but also to individuals. Your best team members will embrace the idea of continuous education and continuous improvement, and treat mistakes not as failures but as opportunities for improvement.
+*Kaizen* applies not only to your team's process but also to individuals. Your best team members will embrace the idea of continuous education and continuous improvement, and treat mistakes not as failures but as opportunities for improvement. 
 
 ### Coaching
 
@@ -196,6 +209,8 @@ Your principal role as a manager is to get the best out of the people on your te
 
 Your goal in your interactions with your direct reports, whether they are individual contributing engineers or managers themselves, is to be the best coach they've ever had.
 
+Note I say 'coach' and not 'friend' or 'therapist'. Being a friend of a direct report can be problematic in many ways. There will come a time when you have to deliver uncomfortable news to that individual, and you may worry about that news impacting your friendship. This is not to say that you can't (and should be) friendly to them, just that you should not socialize with them alone outside of work or show favoritism. On the subject of favoritism, you may not feel that you are showing such to an individual, but others may percive it. It is worth noting that perception is reality to many, so that feeling that you give the best and most fun projects to your favorite can be dangerous to morale. Lastly you are not your employees therapists. You should coach, mentor, encourage, and support them but you cannot change their core personalites. One of the hardest tasks is taking someone that is clearly intelligent, curious, and 
+ 
 ### Find a Management Mentor
 
 One way to jumpstart your leadership transition, coaching and managing others, is to find yourself a management mentor, rather than learning by trial and error. There are a lot of management coaches out there with different approaches; the challenge is to find one that resonates with you.
@@ -1877,7 +1892,6 @@ it falls on you to ensure the team as a whole is running well. What running well
 ## Tech Culture and General Philosophy
 
 I encourage all leaders to adopt the general leadership style known as *servant leadership*. As a servant leader your main focus is on serving the needs of your team. This means focusing on empowering others, building
-
 a culture of transparency, communication, collaboration, and growth. As you think about your team and culture, and about decisions on a day-to- day basis, ask yourself which option enables the team to do their best work and thus deliver the most for the business.
 
 
