@@ -61,6 +61,7 @@ Ebook: 978-1-955811-57-6
   - [IT](#it)
   - [Security and Compliance](#security-and-compliance)
 - [Conclusion: Measuring Success](#conclusion-measuring-success)
+- [Rules of Thumb: Nuggest of wisdom ] (#rulesl-of-thumb)
 - [Book References](#book-references)
   - [Digital References](#digital-references)
 - [Glossary](#glossary)
@@ -3346,6 +3347,10 @@ I've done my best to provide some structure on meeting those challenges, though 
 At some point in life, one gets asked: What advice would you give to the younger version of yourself? is handbook is my answer to that question.
 
 I hope it helps you in your journey to build powerful technology, motivated and empowered teams, and successful businesses, and, most of all, have fun and do some good for the world.
+
+# Rules of Thumb
+
+There hundreds of nuggets of wisdom out there and many of them apply to multiple scenarios. I have dropped some here that fit life as an engineer and engineering leader.
 
 
 # Book References
