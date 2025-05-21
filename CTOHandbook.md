@@ -61,7 +61,7 @@ Ebook: 978-1-955811-57-6
   - [IT](#it)
   - [Security and Compliance](#security-and-compliance)
 - [Conclusion: Measuring Success](#conclusion-measuring-success)
-- [Rules of Thumb: Nuggest of wisdom ] (#rulesl-of-thumb)
+- [Rules of Thumb](#rules-of-thumb)
 - [Book References](#book-references)
   - [Digital References](#digital-references)
 - [Glossary](#glossary)
