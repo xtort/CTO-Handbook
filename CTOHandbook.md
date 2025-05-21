@@ -39,9 +39,9 @@ Ebook: 978-1-955811-57-6
   - [Leadership Responsibilities](#leadership-responsibilities)
   - [Which Type of Startup CTO Are You?](#which-type-of-startup-cto-are-you)
     - [The Tech-Focused CTO *AKA The Chief Architect*](#the-tech-focused-cto-aka-the-chief-architect)
-  - [Macro \& Micro Culture] (#culture)
-    - [The Culture at Large] (#macro-culture)
-    - [The Culture at Ground Level] (#micro-culture)
+  - [Macro and Micro Culture](#culture)
+    - [The Culture at Large](#macro-culture)
+    - [The Culture at Ground Level](#micro-culture)
 - [Technical Team Management](#technical-team-management)
   - [Tech Culture and General Philosophy](#tech-culture-and-general-philosophy)
   - [Tech Debt](#tech-debt)
@@ -76,7 +76,7 @@ Failure is the Only Option
 
 There are two key ingredients to my success and they are something we can all take advantage of. I understand that there may be some argument about the latter of the two but allow me to speak to it to see if I can help you see a bit from my view.
 
-Firstly let me start by saying that I am a big fan of taking calculated and mitigated risks. These risks natrually come with the potential for 'failure', regardless of how much you attempt to mitigate. I don't consider it a failure if you don't succeed at your chosen task, yet you learn from the experience. 
+Firstly let me start by saying that I am a big fan of taking calculated and mitigated risks. These risks natrually come with the potential for 'failure', regardless of how much you attempt to mitigate. I don't consider it a failure if you don't succeed at your chosen task, yet you learn from the experience, unless you are an airline pilot. 
 
 After you build some confidence and reduce your ego such that you are willing to take risks and fail, you must take advantage of opportunity. I have been successful because people have taken risks on me, and I have jumped at every opportunity that was placed in front of me. Some may say that I have been lucky in this regard, but I don't see it quite that way. When I say that I took advantage of every opportunity, I mean EVERY opportunity no matter how small. Skills are built from experiences regardless of how small. They feed and build on each other. It doesn't have to be a huge opportunity for it to have value. It can be something as small as additional responsibility or a minor role in a project. As my leadership saw my willingness to commit myself to tasks and drive value, they began to have confidence in offering me greater responsibility. I have had several leaders in my past take a chance on me, and I focused on proving to them that their choice was valid. When it is your time to lead, pay that forward and look for those that are ready for you to take a chance on *them*.
 
@@ -3351,6 +3351,681 @@ I hope it helps you in your journey to build powerful technology, motivated and 
 # Rules of Thumb
 
 There hundreds of nuggets of wisdom out there and many of them apply to multiple scenarios. I have dropped some here that fit life as an engineer and engineering leader.
+
+"Software development is a social process, not a sum of individuals process."
+Kent Beck, interview, The Agile Revolution podcast, 2/20/2020
+Be aware of when you have a group of highly talented engineers that don't operate as a team. 
+
+Great things in business are never done by one person,They are done by a team of people.
+Steve Jobs, Steve Jobs: His Own Words and Wisdom
+If you think you have more control as a leader, that’s a fallacy.
+Doug Gaff, VPE, Zapier, in Plato-sponsored webcast May 6, 2020
+Doug was explaining how he coaches people interested in management. He also said he notes, "If you don’t want to keep growing as a leader, you're probably on the wrong path."
+
+You have to make sure you never confuse the hierarchy that you need for managing complexity with the respect that people deserve. Because that’s where a lot of organizations go off track, confusing respect and hierarchy, and thinking that low on hierarchy means low respect; high on the hierarchy means high respect. So hierarchy is a necessary evil of managing complexity, but it in no way has anything to do with respect that is owed an individual.
+Mark Templeton, former CEO of Citrix, interviewed in The New York Times
+The better way is to create a culture where everyone is respected, engaged, cared for, and motivated. When I got into management I knew I didn't want to manage people like I had been managed before, and that's when I discovered some of the exciting tenets of Agile, such as pushing responsibility to the people doing the work, respecting their skills, and respecting their personal lives. Agile provided a perfect roadmap for me as a manager. I'm not a top-down alpha who needs to be the biggest person in the room. My style is the leader follower or servant leader, and I do what I do because I want engineers to remember why they wanted to become engineers.
+Patrick Mee, Executive VPE, NextRoll, contributing to Andy Hilliard's book, Synergea, 2024
+Once you have that transformation of belief - I'm responsible for my code running in production - and I'm going to do everything I need to do so I can sleep well at night - then unit testing falls out of that. TDD is a set of feedback loops and an incentive system to encourage even more confidence and certainty.
+Kent Beck, interview, The Agile Revolution podcast, 2/20/2020
+Heroes Breed Complacency.
+Johnny Ray Austin, Head of Navigation Data, Mapbox
+In his talk at CTO Summit SF 2019, Johnny Ray Austin pointed out the effect that "heroes" have on other members of a team.
+
+Becoming Agile is hard. It is harder than most other organizational change efforts I’ve witnessed or been part of [for reasons] including…the need to avoid turning Scrum into a list of best practices.
+Mike Cohn, Succeeding with Agile (Addison-Wesley, 2010), pp. 17-18
+The point is not agile's practices. As Jim Highsmith observed in his book Agile Project Management: Creating Innovative Products (Addison-Wesley, 2009; originally published 2004), "specific practices in the absence of guiding principles are often inappropriately used." Agile's guiding principles were succinctly stated in the Agile Manifesto.
+
+The point is not to do Agile. The point is to be effective. Agile provides us insights.
+Al Shalloway, agile author
+The attempt by leaders to apply schedule pressure to their teams most often has the effect of sending teams into full-scale counter-productive schedule panic - even when the leaders perceive themselves as applying only a tiny amount of pressure.
+Steve McConnell, Rapid Development, 1996
+If you don't find your risks sooner, they will find you later.
+Fernando Martínez de la Cueva, Returnly.com Lead Engineer
+While training Fernando's team in scrum, as I was discussing critical considerations in backlog ordering, I shared the rule of thumb I'd learned at Apple, "Practice risk-first project management." Fernando shared back this phrasing of the rule, also worthy of remembering. We phrased the rule yet a third way when we incorporated it in a precept we shared in Chapter 9, "Job one is to make sure that the project is prioritized based on two criteria: customer value and risk."
+
+To only a fraction of the human race does God give the privilege of earning one's bread doing what one would have gladly pursued free, for passion. I am very thankful.
+Frederick P. Brooks, Jr., The Mythical Man-Month, p.291 (anniversary edition)
+We're both thankful that we have been given that privilege, too.
+
+Both code and people require the same thing to thrive: focused, sustained attention. No one does both well.
+Sarah Mei, software engineer, founder of @railsbridge, Director of Ruby Central, Architect at @salesforceux, tweeting in 2017
+So true. But because the focused, sustained attention required by people vs code is so different, it's non-obvious. Mei also notes, "There are lots of people who do both well - but serially. Not simultaneously." Which matches our own observations.
+
+You can only really improve at one of these things at a time: engineering or management. And if you’re a manager, your job is to get better at management. Don’t try to cling to your former glory. Management is highly interruptive, and great engineering — where you’re learning things — requires blocking out interruptions. You can’t do these two opposite things at once. As a manager, it is your job to be available for your team, to be interrupted. It is your job to choose to hand off the challenging assignments, so that your engineers can get better at engineering.
+Charity Majors, founding CTO-then-CEO of DevOps-disaster-observability tooling honeycomb.io, in her blog post, The Engineer Manager Pendulum, 5/11/17
+Becoming a manager is not a promotion - it's a lateral move onto a parallel track. You're back at junior level in many key skills.
+Sarah Mei, software engineer, founder of @railsbridge, Director of Ruby Central, Architect at @salesforceux, tweeting in 2017
+And because so many of us, as programmers, were repeatedly thrown into the deep end - and survived - we think we can just hack our way through management the way we hacked our way through code. To the peril of our reports!
+
+A tech lead is a manager … but their first priority is achieving the task at hand, not grooming and minding the humans who work on it.
+Charity Majors, founding CTO-then-CEO of DevOps-disaster-observability tooling honeycomb.io, in her blog post, The Engineer Manager Pendulum, 5/11/17
+Good characterization of tech leads, and differentiating them from the care-and-feeding required of managers! She continues, "the best tech leads in the world are always the ones who done time in management. This is not because they’re always the best programmers or debuggers; it’s because they know how to get shit done, which means they know how to communicate and manage other people."
+
+There cannot be a more important thing for an engineer, for a product team, than to work on the systems that drive our productivity. So I would, any day of the week, trade off features for our own productivity. I want our best engineers to work on our engineering systems, so that we can later on come back and build all of the new concepts we want.
+Satya Nadella, CEO of Microsoft, cited by Sam Guckenheimer, Product Owner, Visual Studio Team Services, in his talk at DevOps Days Seattle, April 2018
+If today were the last day of my life, would I want to do what I'm about to do today?
+Steve Jobs, Steve Jobs: His Own Words and Wisdom
+Executives who do not manage themselves for effectiveness cannot possibly expect to manage their associates and subordinates.
+Peter Drucker, The Effective Executive, p. xv
+Management is largely by example. Executives who do not know how to make themselves effective in their own job and work set the wrong example.
+Peter Drucker, The Effective Executive, p. xv
+In forty-five years of work as a consultant with a large number of executives in a wide variety of organizations - large and small; businesses, government agencies, labor unions, hospitals, universities, community services; American, European, Latin American and Japanese - I have not come across a single 'natural': an executive who was born effective. All the effective ones have had to learn to be effective. And all of them then had to practice effectiveness until it became habit.
+Peter Drucker, The Effective Executive, p. xv
+The higher up you go your job is sales.
+Julia Grace, Senior Director of Infrastructure Engineering at Slack, in her talk, "10 Lessons Learned from Building Engineering Teams Under Pressure" at San Francisco's CTO Summit 2018.
+Julia expanded on moving up in the organization, and realizing that her job had become selling her team and her team's work - some of that outside the company, but significantly up, down and across her own organization. "One day I woke up and realized I do sales. Every day."
+
+People are not resources; They are people.
+Julia Grace, Senior Director of Infrastructure Engineering at Slack, in her talk, "10 Lessons Learned from Building Engineering Teams Under Pressure" at San Francisco's CTO Summit 2018.
+Julia remembered fondly one of her own managers. “Diane remembered my name, asked about my family, asked about my dog.”
+
+Your job is to ask questions, not have answers.
+Julia Grace, Senior Director of Infrastructure Engineering at Slack, in her talk, "10 Lessons Learned from Building Engineering Teams Under Pressure" at San Francisco's CTO Summit 2018.
+Julia continued, “Leadership is about asking questions. The path to answers is through questions.”
+
+Jerks are not loyal. Get rid of them.
+Tara Hernandez, Engineering Manager at Google, in her talk, "Angst Aikido - The Art of Making Scary Engineering Culture Change" at San Francisco's CTO Summit 2018.
+A corollary to our rule of thumb, "Don't tolerate jerks." Tara observes that our reason for tolerating jerks is typically that they're really good or that they're the exclusive holders of knowledge about some part of our code, but points out, “Jerks can leave at any time.” Get that knowledge cross-pollinated now!
+
+Recruit for the long, long game.
+Julia Grace, Senior Director of Infrastructure Engineering at Slack, in her talk, "10 Lessons Learned from Building Engineering Teams Under Pressure" at San Francisco's CTO Summit 2018.
+Julia described a prospect she'd tried to recruit. And failed to. And stayed in touch with. And five years later, now at another company, she recruited her again. And made a great hire. "It took me 5 years to recruit her."
+
+Don't forget that the 10x engineer is not mythological, but that if you try to staff an engineering team with all 10x engineers, you might wind up with 0x productivity.
+Jim Friedlander, Developer Technical Support engineer at Apple and General Magic
+I just discovered, to my chagrin, that our discussion of 10x engineers is neither in the index nor searchable in the digital version of Managing the Unmanageable - though searching for "ten times" or "10:1" reveals that it's at the beginning of Chapter 3: Finding and Hiring Great Programmers.
+
+What gets measured gets manipulated.
+We've been pointing out for years the dangers of most metrics - that we human beings, when we know we're being measured, will game the metric being measured, usually to the detriment of the result we truly want. We've heard it referred to as the human measurement application of the Heisenberg Principle. (The observer effect, with which the Heisenberg Principle is often confused, says that simply observing a phenomenon changes the phenomenon. Which is, in fact, what happens with metrics when humans know the metric is being measured.) Also see Campbell's Law ("The more any quantitative social indicator is used for social decision-making, the more subject it will be to corruption pressures") and Goodhart's Law ("Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.").
+
+In 2017, delivering an agile training, Ron was pointing out the value of velocity to teams: combined with relative sizing, velocity enables teams to make predictable estimates; but velocity needs to be kept inside the team; it is extraordinarily tempting to management to hijack to measure productivity; while it turns out to be a lousy measure of productivity of teams (let alone individual team members), that's not obvious; what's also not obvious is that when velocity is externally measured, relative sizing will be gamed to make velocity go up without any concomitant increase in productivity; management will be happy their developer-productivity number is rising; but, gamed, relative sizes and velocity will have become useless for making estimation predictable, and customers are no happier.
+
+Members of Ron's class immediately responded, "We have a maxim for that, 'What gets measured gets manipulated.'"
+
+If you ever use metrics to punish or reward, you’ll never see the truth again.
+Sally Elatta, founder, AgilityHealth
+Tell me how you measure me and I will tell you how I will behave.
+Eliyahu Goldratt, originator of the Theory of Constraints, author, The Goal
+What gets measured gets managed - even when it's pointless to measure and manage it, and even if it harms the purpose of the organisation to do so.
+often attributed to Peter Drucker
+Unfortunately, the quote is too often truncated to the first five words - which are most definitely out of context of the rest of the sentence. In the context of the subsequent 22 words, it's clear that their speaker was advocating neither measurement nor management by measurement - but rather extreme caution against measuring the wrong thing. Spurious measurement can be harmful to the very fabric of our organizations.
+
+It is wrong to suppose that if you can’t measure it, you can’t manage it — a costly myth.
+W. Edwards Deming, The New Economics, page 35
+We've pointed out repeatedly the travails we've experience attempting to apply metrics to programmer productivity. We have rules of thumb to urge avoidance of using specific metrics, like lines of code or agile velocity. We think the best way to know programmers' productivity is to ask their managers: it's the job of first-line managers to know who is how productive.
+
+The most characteristic feature of metric fixation is the aspiration to replace judgment based on experience with standardized measurement.
+Jerry Z. Muller, The Tyranny of Metrics, page 6
+When managers don't understand the work, they tend to reward the appearance of work. (long hours, piles of paper, ...)
+Gerald Weinberg, author of The Psychology of Computer Programming, in an Oct 30, 2012 Tweet, echoing comments he made keynoting the 2005 Software Development Expo in Santa Clara, CA
+Trying to measure developer productivity is a distraction. There may be ways to do it, or not - but no one who has worked in this area for any amount of time has figured out how to do it safely and in a way that really yields actual improvements in 'productivity'.
+Krishna Kumar, whose measurement work we've been following for many years.
+Krishna goes on to note, "There are are plenty of things that we can actually measure and improve using better data and literacy about how to use this data in healthy ways. If managers don't know how to use data effectively, that's not because such data does not exist, but it's because they don't know how to use it effectively."
+
+The point of metrics is to help me find out who I need to pay more attention to before problems arise.
+Mickey W. Mantle, in conversation with Seattle CTO Club 2024 metrics-topic co-panelists Krishna Kumar, Britton Broderick and Ron Lichty
+Comparing velocity between teams is like saying that basketball teams are "more productive" than baseball teams because they rack up more points during the game.
+Allen Holub, KPIs, Velocity, and Other Destructive Metrics
+As we all know, and Allen points out, "every team has a different notion of what a "point" is." Allen's post is an eloquent commentary on the destructiveness of metrics that attempt to measure individual or team “productivity” in software development, including the all too common misuse of velocity as a metric, and all too many KPIs. When he gets to alternatives, do note the word "might" in "So, what internal performance-related things might be worth measuring?” There are a couple that (in our opinions) would be destructive to many teams, but most of the rest should provoke good thought.
+
+Velocity is a release planning tool, not a productivity metric.
+Rob Myers, Agile Institute, 2022
+Just as a sports team wins or loses together, so too should the engineering team be treated as the fundamental unit of success.
+Antoine Boulanger, Co-Founder and CEO at Okay, and Tomas Barreto, Co-Founder and CTO at Okay, both former Box senior engineering managers, in their post, Engineering Productivity Can Be Measured - Just Not How You'd Expect
+They add, "Approaching engineering at the team level also places the proper accountability on the manager."
+
+[The “planned vs. actual” metric (comparing what we thought stories and tasks would take to what they actually took)] is intended to inform your planning. It is not to figure out if the team is doing things wrong. Plans are a guess; actuals are reality. The intent is not to bend reality, it is to improve our ability to guess. This metric ends up getting used backwards: We act as if the plan is good and the inability to hit it is bad.
+Doc Norton (author, Escape Velocity: Better Metrics for Agile Teams) in a 2023 talk
+Too much information becomes noise.
+Sarah Shewell, in her talk, "Lessons from an Undercover Boss" at DevOps Days Seattle 2018.
+It seems in opposition to my own rule of thumb, captured in Managing the Unmanageable: in tech, "You cannot overcommunicate!" But you can communicate the wrong stuff. Combined with Sarah's observation that supportive leadership creates a culture of trust, both of our rules of thumb play well with Joe Kleinschmidt's rule of thumb, also published in our book, admonishing managers to "Be a damper to the noise."
+
+Never delegate hiring to HR.
+Mickey W. Mantle, in response to a blog post recounting an exceptionally qualified director of engineering candidate being ruled out by a Google H.R. phone screen after he failed to reply with the "correct" answers on the H.R. screener's script. (He had replied in much more nuance and depth.)
+Ron supplied his own example, on reading the blog post: While a programmer at Apple attending an Apple conference, Ron met a VPE from an educational games company six months after having been rejected by the games company's HR phone screen. "The VP Engineering had sought me out to thank me for my programming books. And was horrified to learn that I’d tried - and failed - to get a job in his group. I was the very guy he wanted."
+
+The manager’s role is to make a critical analysis of the proposal and make what is frequently a difficult choice about what will be in the organization’s long-term interest.
+Jason Evanish, CEO, Get Lighthouse, in his Feb. 2021 blog post, Nails in the Coffin: Why a Flat Organizational Structure Fails
+Jason points out that "good ideas are not always received well by self-interested actors, especially when you’re dealing with people of mixed experienced levels and backgrounds, as any company with more than a few employees is." A good summation for why I believe that, in hiring, the manager should make the hire-or-not decision.
+
+You should never hire someone to work for you unless you would work for them.
+Facebook CEO Mark Zuckerberg, as quoted August 2017 by Facebook COO Sheryl Sandberg during an interview with Reid Hoffman for his podcast "Masters of Scale."
+We managers get a little more obsolete every day.
+Intel CEO Andy Grove on the importance of investing in, and tapping the abilities of your people.
+There's always something that contributes to your success at one step on the career ladder that will get in your way on the next.
+This rule of thumb derives from our hard-found experience. What made us successful as developers was the ability to shut out the world. What makes managers successful is not only not shutting out the world, but putting a welcome mat out in front of our doors, in fact, proactively welcoming interruptions. Our best shot at not being surprised is being welcoming to any input at any time. And our people are more important than anything else we could be working on.
+
+To another example, first level managers are charged with protecting their teams, shutting out the noise, evangelizing their teams and their team’s work. VPEs are charged (and too often don’t get that they’re charged) with being part of the leadership team, with seeing the company’s mission, with being part of the “whole” - even if it means sacrificing part of their own organization or their organization’s work to do so. They may have peers and a boss who, for the first time, are not technical at all, so they'll additionally have to adopt a “second language” to communicate their organization’s work and to collaborate as part of the leadership team. Mid-level managers have to figure out how to begin letting go, how to begin being broader.
+
+Here’s where the “yesterday I was the lead developer, today I’m the VPE” is, for most startup VPEs, almost impossibly difficult to traverse.
+
+Going from individual contributor to manager is a huge leap for any employee you promote. Their task relevant maturity quickly goes from excellent to poor. [You must] coach and develop them at that moment.... Teaching your leaders the right habits is only the first step. Training is quickly forgotten if not put into practice. We are all busy, so most of your employees are only going to do what’s required. If you do not measure and reward your leaders for doing the right things (like growing their people, coaching and giving feedback, having 1 on 1s, and focusing on the right things), do not expect to have great managers.
+Jason Evanish, CEO, Get Lighthouse, in his Feb. 2021 blog post, Nails in the Coffin: Why a Flat Organizational Structure Fails
+Jason first makes the case for the failure of manager-less or manager-light organizations, then notes how challenging the transition is from technical to managerial, a transition that needs to be carefully guided by the more senior managers who promoted them. It is, in fact, why we wrote Managing the Unmanageable.
+
+High-scoring managers saw less turnover on their teams than the others did—and retention was related more strongly to manager quality than to seniority, performance, tenure, or promotions. The data also showed a tight connection between managers’ quality and workers’ happiness.
+How Google Sold Its Engineers on Management, Harvard Business Review, December 2013
+It’s far more powerful to treat an employee like an 'ally,' be realistic about how long they’ll likely stay at your company, and then offer a promise of career transformation if they work for you.
+Linkedin co-founder, Reid Hoffman
+3.4: Mythical Man Month
+A manager went to the Master Programmer and showed him the requirements document for a new application. The manager asked the Master:
+How long will it take to design this system if I assign five programmers to it?
+“It will take one year,” said the Master promptly.
+But we need this system immediately or even sooner! How long will it take if I assign ten programmers to it?
+The Master Programmer frowned. “In that case, it will take two years.”
+And what if I assign a hundred programmers to it?
+The Master Programmer shrugged. “Then the design will never be completed,” he said.
+The Tao of Programming, Translated by Geoffrey James
+Stop using words like 'contractor' and 'full-time.' Those are financial arrangements with your HR department: As far as you're concerned, everyone on your team is an engineer.
+Patrick Mee, Executive VPE, NextRoll, contributing to Andy Hilliard's book, Synergea, 2024
+We have remote people who've been with us longer than some of our local people, and if I didn't treat them right it would mean constant turnover and retraining.
+Patrick Mee, Executive VPE, NextRoll, contributing to Andy Hilliard's book, Synergea, 2024
+In more than 20 years of working with companies that have established geographically distributed development teams, we have seen only a small number of examples in which productivity was comparable to a team that was co-located. We have never seen an example where the distributed team's productivity was better than a co-located team's.
+Steve McConnell, author, More Effective Agile, 2019
+'Remote-friendly' is a myth.
+Johnny Ray Austin, Head of Navigation Data, Mapbox, in his talk, "RPC - Remote People Call - Managing Globally Distributed Teams" at San Francisco's CTO Summit 2018.
+Austin made the case that only "remote-first" works - given that in the typical conference call, remote folks will miss every third or fourth word and can count only on getting the gist, and that building trust and rapport is an order of magnitude more difficult, organizations with remote team members must invest in video, invest in travel, open "around the room" with remote folks going first, and communicate at a level that feels like over-communicating.
+
+The only way for remote team members to come close to replicating the effectiveness of a good in-person meeting is to promise one another that they will not check e-mail, play spider solitaire, or mute the phone and have side conversations with co-workers during meetings. Instead, they must be present, attentive and willing to engage in difficult discussions even when it is tempting to let a comment or an issue go just so the meeting can end sooner. And when someone suspects that a team member might not be adhering to all this, everyone must be willing to ask the question and call that person out.... Leaders of virtual teams [are] critical to making this work. They must carve out extra time during conference calls so that real discourse can occur. And they have to actively solicit the opinions of people who aren’t speaking up, either because they have a hard time jumping into a conversation, or because they are generally quiet and reserved. And finally, the leader must call out any team members that he or she suspects of multi-tasking or checking out of the meeting.
+Patrick Lencioni, author of Five Dysfunctions of a Team, in his LinkedIn post, "Virtual Teams are Worse than I Thought", May 18, 2017
+In his post, Patrick reflects on three years of creating a virtual, faith-based organization with beloved colleagues in multiple states. "I was more than a little surprised when things got difficult.... When we finally got together and put the issues on the table, we realized that everything was attributable to not having regular, daily, face-to-face interactions. So we decided that we would work harder to use technology to stay in closer contact, and that we wouldn’t jump to any conclusions about one another if we ever found ourselves at cross-purposes. And then it happened again...." He advises, "Being co-located is a serious competitive advantage.... If you cannot avoid working on a virtual team — and plenty of organizations can’t — then sit down as a team and acknowledge the inevitability of miscommunication, unintentional politics, and painfully inaccurate behavioral attributions.... virtual teams need to commit to spending face-to-face time together, as much and as often as possible, and to using that time wisely. That means working hard to build vulnerability-based trust with one another." The entire post is well worth reading.
+
+Great group communication... Real-time sometimes, asynchronous most of the time.
+Jason Fried, Founder & CEO of Basecamp (and the Campfire group chat and messaging tool), co-author of Getting Real, Remote, and REWORK
+In his 2016 article, “Is group chat making you sweat?”, Jason points out the dangers of being in group chat all the time and suggests ways to avoid the on-going distraction that can occur when you allow group chat to dominate your communications. In the article he says: "Group chat feels like you’re chasing something all day long. What’s worse, group chat often causes 'return anxiety' —  a feeling of dread when you’re away for a while and you come back to dozens (hundreds?) of unread lines. And just when you’re caught up, you’re behind again.... It’s like you're working two jobs —  the work you’re supposed to do, and the work of catching up on what you missed that probably didn’t matter (but you won’t know until you read back).... I still think group chat is an important tool in the communications toolbox. I just don’t think it’s the go-to tool. I think it’s the exception tool. It’s far more useful for special cases than general cases. When used appropriately, sparingly, and in the right context at the right time, it’s great....
+
+"At Basecamp our perfect-world rule of thumb is 'real-time sometimes, asynchronous most of the time'.... Basically, right now should be the exception, not the rule. That creates space and attention for the things that really do have to be discussed right now, and allows everything else to be thoroughly discussed asynchronously and thoughtfully over time. In Basecamp 3 we use the built-in campfire chat for occasional real-time communication while important asynchronous communication happens on message boards and comment threads that are attached to every object in Basecamp (to-do lists, individual to-dos, documents, announcements, check-ins, etc). Comment threads also keep things in-context since discussions about a to-do (or document or file or announcement or…) are permanently attached to that to-do (or document or file or announcement or…). This way you can easily refer back to any conversation about something you’re working on and be absolutely confident you have the whole story and the complete conversation in one place."
+
+Ideally, you want to co-locate your developers and stakeholders to improve their ability to collaborate and communicate, thereby reducing cost (they don't need to document as much) and risk (you increase the chance that they understand each other) on your project.
+Scott W. Ambler, "Imperfectly Agile: You Too Can Be Agile!", Dr. Dobb's Journal, October 2006, p. 82
+The humility required to be a servant-leader is rare, and is of great importance in a remote setting.
+Mårten Mickos, CEO of HackerOne, in his interview with GitLab's Head of Remote, Traits of a great remote manager.
+Managers excel by serving... People tend to feel more guilty about asking a manager for step-by-step guidance in a remote setting — e.g. "I'm bothering them in their home!" To proactively address this, be sure to reinforce that you (as a manager) are not bothered by sincere requests for assistance.
+Mårten Mickos, CEO of HackerOne, in his interview with GitLab's Head of Remote, Traits of a great remote manager.
+At 37signals, we’ve found that we need a good four hours of overlap to avoid collaboration delays and feel like a team.
+Jason Fried and David Heinemeier Hansson, 37signals (now Basecamp) founders and remote-work advocates, in their book Remote
+They add, using as an example the situation of an LA-based team finding a superstar designer in Shanghai, "in most cases we think it's more of a challenge than it's worth... (Saving money on labor is definitely not a valid reason to invite the hassle, but access to one-of-a-kind talent just might be.)" They do share that they managed to cope with a seven-hour Chicago-Copenhagen time difference to nonetheless achieve their four key hours of intersection by having Copenhagen working from 11am to 7pm local time and Chicago working from 8am to 5pm. "Thankfully, there are lots of enjoyable work-life schedules outside the regular 9am to 5pm. Embrace that."
+
+Teams are immutable.
+Johnny Ray Austin, Head of Navigation Data, Mapbox, quoting his boss, Mapbox's Platform VP Will White, in his talk, "RPC - Remote People Call - Managing Globally Distributed Teams" at San Francisco's CTO Summit 2018.
+Add a single person to a team and it's a new team. See a single person leave and it's a new team. High performance teams emerge having gone through the "forming, storming, norming, performing" cycle; the change of one team member re-starts that cycle. Johnny's point, in sharing the rule of thumb: don't shake up teams and especially don't shake up distributed teams, where the team-building cycle of building trust and rapport is an order of magnitude more difficult.
+
+A simple test that can help you decide if a shift into management is right for you: Consider the books you’ve read in the previous year. If you’re a programmer, and you read a bunch of programming, design and technical books last year, you’re probably not really interested in shifting toward management. If the thought of reading a management book strikes you as boring, you don’t want to be a manager. However, if you already find yourself reading that type of book instead of the more technical books you used to favor, you’ll likely thrive as a manager.
+Mike Cohn, agile author and thought leader, in his May 2017 newsletter
+Mike says this is the test he puts to programmers who ask if they should move from a technical role into a management role, whether that role is a Scrum Master, development manager, QA director, or some other managerial role. Here's what Mike had to say about his own decision to become a manager: "I started my career as a programmer. After about five years as a programmer, though, I noticed that I was thinking more about how to manage the project than I was about writing code. I began to wonder if it might be time for me to pursue a project manager role. (This was back before agile, so yes, I mean project manager.) I talked about this with my boss and began to work with him to develop the skills I would need to make the shift to management. For years, I continued as half programmer / half management. I kept my hands in the code as long as I could. But, ultimately the decision to shift my career in the direction of management worked out well for me. I learned to get joy not from pointing to a part of the software and saying “look what I built,” but to pointing at the overall product and saying, “look what I enabled the team to build.” I noticed I’d fully become a manager one time when I was reading an in-depth book on the .Net framework and thought to myself, “I’m glad my team has to really know this stuff but I don’t.” I knew then that while I could still occasionally contribute as a programmer, it would no longer be my emphasis."
+
+Software is complex and customers don't yet know what they want. Software plans are fiction, a guarantee that customers won't get what they actually want.
+Andy Wootton, CEng MBCS CITP, UK, 4/17 Agile and Lean Software Development forum post
+Gerstner & Day, in an article in the Journal of Applied Psychology, found that: "The relationship with one’s boss is a lens through which the entire work experience is viewed." Take a minute to re-read that. Your developers' entire work experience is viewed through you. You are their lens. Researchers found a significant correlation between the quality of relationship that developers have with their manager, and performance and satisfaction in the job. This agrees with Gallup’s finding that “managers account for 70% of variance in employee engagement.”
+Science of happy developers: How to boost your engineering team's mojo
+Author Marcus Blankenship concludes: "managers who want to create high-performing teams and happy developers should cultivate high-quality, individual relationships with their team members." This article reinforces one of the key aspects of being a successful programming manager that resonates throughout our book Managing the Unmanageable. To effectively manage and motivate any programmer a manager must understand them completely: their education and background; their personal life situation; their interests; their expectations; their likes; their dislikes. All of these things embody an effective relationship. This article has some good tips on how to foster this relationship that echo similar insights from our book. In today’s world of increasingly flat organizations, it is surprising that the role of programming manager is being diminished as Tech Leads are given the dual responsibilities of being individual contributors and managers, with overall diluted results. As companies grow, developing and nurturing strong technical managers is critical to their success. Blankenship summarizes, "It's tempting to think that new languages, platforms and tools can solve your mojo problems, but they won't.... I've seen plenty of programmers working on old technology, with old processes, on old platforms, who love their jobs. When I ask them why, they tell me that they love their boss, company, and teammates. They feel their boss 'has their back,' and wants the best for them."
+
+When you cancel one-on-ones and compensate with an open-door policy, your time investment mimics that of a call center employee who takes requests in the order they are received, instead of an effective manager and executive who aligns his time investment with his priorities.
+Elizabeth Grace Sounders, author of How to Invest Your Time Like Money, in her article, Cancelling One-on-One Meetings Destroys Your Productivity
+Most software managers began their careers as software developers. They either had some ambition, some skill recognized as good management material, or were in the right place at the right time. No one I know who manages software was trained to be a manager.
+Mark I. Himelstein, Interim VP Engineering, "Software Manager Basics", Dr. Dobb's Journal, June 2006
+Reward systems in most large corporations are oriented toward existing businesses, with short-term considerations often outweighing longer-term innovation and market development objectives. But innovation can flourish only when risk-taking is encouraged, occasional failure is accepted and managers are held accountable for missing opportunities as well as for exploiting them.
+Cornelis A. de Kluyver, 1988, as quoted by Jim Spitze in his forthcoming book, The CIO
+Do not permit important activities to be implemented by a single individual without appropriate peer interaction; peers working together are the first and best line of defense against errors.
+NASA review board observation, in their investigation to identify the error that caused the 1999 Mars Polar Lander to vanish during the landing phase, as reported in Dr. Dobb's Journal, November 2006, p.75
+People hate change and the way things are, in that order.
+Emily R Speer, Operations Executive, San Francisco Bay Area
+People do not resist change, they resist being changed.
+Peter Senge, director, Center of Organizational Learning, MIT Sloan School of Management
+Change equals Opportunity.
+Doug Carlston, founder and CEO, Broderbund Software
+One of Mickey's favorite Rules of Thumb. Mickey recounts, “We were in the midst of the transition from MS-DOS to Windows 95 at Broderbund, and as we began strategizing what to do with our products Doug mentioned this Rule of Thumb to me in planning that transition. Of course, Doug didn’t really invent this Rule of Thumb, the Chinese character for Danger is the same as for Opportunity… so this idea probably goes back millennia. But he drove it home to me in the technical world, and I’ve embraced it ever since. Whenever there are “sea change” events, I look for the opportunities that can arise from them. I started my current company (Wanderful, Inc.) to take advantage of the sea change happening with the transition of Apps from computers to devices. It reminded me of how much I like Doug's quote. We refer to it in Chapter 6, but it deserves to loom large in the core Rules of Thumb section. Of course, finding the right opportunity to take advantage of when there is change is always the hard part. In my case, I think I have done that in spite of the hundreds of thousands of Apps that are being produced for tablets and smart phones.”
+
+Anyone who has ever seen a programmer at work...knows that programming itself, if the programmer is given the chance to do it his way, is the biggest motivation in programming.
+Jerry Weinberg, author, The Psychology of Computer Programming
+In this day and age of informational ubiquity and nanosecond change, teamwork remains the one sustainable competitive advantage that has been largely untapped.
+Patrick Lencioni, author, Field Guide to Overcoming the Five Dysfunctions of a Team
+Multitasking is the fastest way to get nothing done.
+Johanna Rothman, author of Agile and Lean Program Management: Scaling Collaboration Across the Organization, in a July 2015 interview with Matthew Heusser of CIO magazine, Getting serious about portfolio and program management. Also see her blog post, Cost of Delay Due to Multitasking.
+The trick here is that when you manage programmers, specifically, task switches take a really, really, really long time. That’s because programming is the kind of task where you have to keep a lot of things in your head at once. The more things you remember at once, the more productive you are at programming. A programmer coding at full throttle is keeping zillions of things in their head at once: everything from names of variables, data structures, important APIs, the names of utility functions that they wrote and call a lot, even the name of the subdirectory where they store their source code. If you send that programmer to Crete for a three week vacation, they will forget it all. The human brain seems to move it out of short-term RAM and swaps it out onto a backup tape where it takes forever to retrieve.
+Joel Spolsky, author of the Joel on Software blog, in his post, Human Task Switches Considered Harmful.
+If you are a senior manager, don't think you can scrimp on training if you want the cultural and project changes. Agile and Lean are culture changes, not a project management framework. If you want the organization to become Agile, you need to become Agile.
+Johanna Rothman, author of Manage It!, in a July 2015 interview with Matthew Heusser of CIO magazine, Getting serious about portfolio and program management
+The measure of success is not whether you have a tough problem to deal with, but whether it is the same problem you had last year.
+John Foster Dulles, U.S. secretary of state under President Dwight Eisenhower
+…it is much better to lead people, not to drive them. Drive yourself if you must. But not anyone else.
+Kelly Johnson, fabled founder and leader of Lockheed’s famous Skunk Works (which created such legendary planes as the P-38 in WWII and the SR-71 Blackbird), Kelly: My share of it all, by Clarence “Kelly” Johnson and Maggie Smith, p.30
+You know what’s more expensive than hiring good developers? Losing to your competition.
+Sam Ramji, CEO of Cloud Foundry Foundation, in a CIO magazine 2016 interview
+The efficiency of a team is approximately the inverse of the square of the number of members in the team.
+Marc Hedlund, VP Engineering, Stripe, quoted by Ash Maurya, author of Running Lean
+Maurya, after quoting Hedlund in his blog post, “Expose Your Constraints Before Chasing Additional Resources,” summarizes Hedlund's point, "Simply adding more people decreases team efficiency. This is why Jeff Bezos instituted a two-pizza team rule at Amazon: Any team should be small enough that it could be fed with two pizzas." Maurya poses his own rule for constraining resources when you don't yet know what you're doing, "When there is high uncertainty, it is prudent to limit resources until you gain more certainty." Kent McDonald, author of Beyond Requirements, who called out Maurya's rule of thumb in his September 2016 webinar for Synerzip, "The 3Ds of Scaling", compared it to an earlier quote from Albert Einstein, "If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions."
+
+The culture of any organization is shaped by the worst behavior the leader is willing to tolerate.
+Steve Gruenert and Todd Whitaker, School Culture Rewired, ch. 3 (2015)
+What leaders do - and what we don't do - matters.
+
+CFO: What happens if we invest in training our people and they leave us?
+VP Engineering: What happens if we don't, and they stay?
+Exactly.
+
+Agile is about continually getting better. I don’t care how good a team is today; if they aren’t better a year from now, they’re not agile.
+Mike Cohn, agile author and thought leader, in his September 2016 newsletter
+It's better to wait for a productive programmer to become available than it is to wait for the first available programmer to become productive.
+Steve McConnell, Software Project Survival Guide, p.103
+You’ve got to start with the customer experience and work back toward the technology - not the other way around.
+Steve Jobs, 1997 World Wide Developers Conference
+The problem with quick and dirty... is that dirty remains long after quick has been forgotten.
+Steve McConnell, Software Project Survival Guide, p.127
+Here’s the litmus test: If you’re spending more time on bugs than you are on functionality, then you need to rethink the implementation and start over.
+Stefan Estrada, engineering manager at Verizon who oversees a team of five developers working on the OnCue streaming TV service
+If you are not fired with enthusiasm, you will be fired with enthusiasm.
+Vince Lombardi, coach
+What if every coding interview was an uplifting experience that left both parties more knowledgeable and grateful for the opportunity?
+David Vydra, software craftsman, TestDriven.com, in an April 2016 Tweet
+It's painful for most software developers to acknowledge this, because they love code so much, but the best code is no code at all. Every new line of code you willingly bring into the world is code that has to be debugged, code that has to be read and understood, code that has to be supported. Every time you write new code, you should do so reluctantly, under duress, because you completely exhausted all your other options. Code is only our enemy because there are so many of us programmers writing so damn much of it. If you can't get away with no code, the next best thing is to start with brevity.
+Jeff Atwood
+From a blog piece Jeff writes called “The Best Code is No Code at All”, wherein he extols the virture of writing less code, not more. Once more emphasizing the difficulty of measuring programmer productivity. Less is more…
+
+The 80/15/5 rule for programmers: Spend 80% of your time on low-risk/reasonable-payoff work. Spend 15% of your time on related high-risk/high-payoff work. Spend 5% of your time on things that tickle you, regardless of payoff. Teach the next generation to do your 80% job. By the time someone is ready to take over, one of your 15% experiments (or, less frequently, one of your 5% experiments) will have paid off and will become your new 80%. Repeat.
+Kent Beck, Smalltalk programmer and creator of Extreme Programming
+The effort required to create a new system that is functionally equivalent to its predecessor is typically vastly underestimated.
+Mitch Abaza, in his blog post, "When Does a System Rewrite Make Sense?"
+My own rule of thumb for rewrites: triple your worst-nightmare estimate, and you'll be about right. If you're still thinking about it, read Mitch's entire blog post. And also read Dan Milstein's post, "How To Survive a Ground-Up Rewrite Without Losing Your Sanity, aka: Screw you Joel Spolsky, We're Rewriting It From Scratch!"
+
+In the case of rewrites, ... the estimates are often wildly optimistic - largely because few teams have any real experience with true rewrites.
+Marty Cagan, author, Inspired: How To Create Products Customers Love, California: SVPG Press, 2008, p.28
+Marty notes, "at some point, if you neglect [it], all software will reach the point where it can no longer support the functionality it needs to.... If you haven't yet reached this situation, here's what you need to do to make sure you never do - you need to allocate a percentage of your engineering capacity to what we at eBay called 'headroom'.... The deal with engineering goes like this: Product management takes 20% of the team's capacity right off the top and gives this to engineering to spend on... whatever they believe is necessary to avoid ever having to come to the team and say, 'we need to stop and rewrite'.... I get nervous when I find teams that think they can get away with much less than 20%." The alternative is a massive rewrite during which feature progress comes to a halt. "This situation... happened to eBay in 1999, and the company came far closer to collapsing than most people ever realized. It happened to Friendster, opening the door for MySpace to take over social networking. It happened to Netscape during the browser wars with Microsoft, and everyone knows who won. The truth is that most companies never recover."
+
+The deal with engineering goes like this: Product management takes 20% of the team's capacity right off the top and gives this to engineering to spend on... whatever they believe is necessary to avoid ever having to come to the team and say, 'we need to stop and rewrite'.... I get nervous when I find teams that think they can get away with much less than 20%.
+Marty Cagan, author of the product management bible, Inspired: How To Create Products Customers Love, California: SVPG Press, 2008, p.28
+Marty notes, "at some point, if you neglect [it], all software will reach the point where it can no longer support the functionality it needs to.... If you haven't yet reached this situation, here's what you need to do to make sure you never do - you need to allocate a percentage of your engineering capacity to what we at eBay called 'headroom'.... The deal with engineering goes like this: Product management takes 20% of the team's capacity right off the top and gives this to engineering to spend on... whatever they believe is necessary to avoid ever having to come to the team and say, 'we need to stop and rewrite'.... I get nervous when I find teams that think they can get away with much less than 20%." The alternative is a massive rewrite during which feature progress comes to a halt. "This situation... happened to eBay in 1999, and the company came far closer to collapsing than most people ever realized. It happened to Friendster, opening the door for MySpace to take over social networking. It happened to Netscape during the browser wars with Microsoft, and everyone knows who won. The truth is that most companies never recover."
+
+My default assumption is that engineering teams at software companies need to spend 40%+ of their total effort on things that customers don't ask for by name. Users expect scalability, geographic failover, privacy controls, password change processes, and fully tested products. If they are calling to complain about lost data or misbehaving commands, we're too late. 
+Rich Mironov, author of The Art of Product Management, in his post, "Product Waste and The ROI of Discovery"
+The single worst strategic mistake that any software company can make: rewrite the code from scratch.
+Joel Spolsky, in his Joel-on-Software post, "Things You Should Never Do"
+Take heed!
+
+Optimistic programmers might think I’ve missed something important here. If you’re rewriting a system, you’ve already got the code. The code can serve as the spec, right? Probably not. Based on my own experiences and conversations with thousands of software developers around the planet, I unscientifically conclude that almost all production software is in such bad shape that it would be nearly useless as a guide to re-implementing itself.
+Chad Fowler, in his blog post series, "The Big Rewrite"
+It's great to rewrite your code and make it cleaner and by the third time it'll actually be pretty. But that's not the point - you're not here to write code; you're here to ship products.
+Jamie Zawinski, in Peter Seibel's Coders at Work: Reflections on the Craft of Programming, (c) 2009, p.22
+Latency reduction is... a form of compound interest.
+Edmund Jorgensen, "Speeding Up Your Engineering Org, Part I: Beyond the Cost Center Mentality"
+Jorgensen, in making the case for latency reduction (often also known as paying down technical debt), notes that "big rewrites tend to be a terrible investment.... The 'rewrite reflex'... is, unfortunately, a real and dangerous tendency that almost all engineers have to some extent.... Almost certainly you... don’t want to commission a full-on rewrite." Rather, he notes, you want to commission "a steady, incremental investment in testing, monitoring, and refactoring.... You should insist on smaller, incremental latency improvements, not just because of all the normal, eminently true reasons that big increments are bad (everything that makes waterfall a bad idea applies here too), but because... finished latency reduction efforts tend to speed up future latency reduction efforts. Latency reduction is... a form of compound interest, which Einstein himself called 'the most powerful force in the universe.'"
+
+If you have to change your unit tests when you refactor code, you are probably doing more than refactoring.
+Paul Watt, Software Architect, in his blog post, An Eye on Refactoring
+Paul writes, "Refactoring is not intended to mean rework, re-implement, or create version 2.0. You are merely supposed to simplify the structure of your program while keeping the same functionality set. This is where unit tests are very valuable to help insure you do not break things that were previously working. A good rule of thumb, if you have to change your unit tests when you refactor code, you are probably doing more than refactoring."
+
+The most dangerous phrase in the language is, 'We've always done it this way.'
+Admiral Grace Hopper
+A leader is best when people barely know he exists. When his work is done, his aims fulfilled, they will all say: we did this ourselves.
+Lao Tzu
+One of my programmers at one of my large corporate gigs came to me one day and said he didn't think his team needed a manager. He was just 22, the youngest member of his team, but I'd already hired him three times as an intern (in one of those he became our team's internal expert on the microprocessor change we were then making), into a second company to tackle the worst of our code issues, and now into this third company. His teammates were like him. They were self-directed. They worked well with the business. They did amazing work. He was right: they did not need to be managed. In fact, I was doing little managing of them. What was my role? As I showered the next morning, girding myself, as I did every day, for defending and advocating on behalf of my teams, I realized how lucky my team was that they had no idea of what I did on their behalf every single day.
+
+Poor staffing is worse than no staffing at all.
+Bruce Borden, founder and technical leader of 3Com, the first of 3 startups with 3 successful exits; manager of the first workstation development at Silicon Graphics in 1983; and chief scientist at General Dynamics
+Bruce, in his talk to the Silicon Valley Engineering Leadership Community meetup in 2016, shared seeing a high-functioning team of five lose 30 percent of its productivity when the wrong three people were hired to grow the team from five to eight. He adds, "A corollary to the staffing rule is that team productivity is much more important than team size."
+
+Repair or replace
+Rob Sher of CEO to CEO, which later became Mastering Midsized
+This is Sher's "mantra" regarding toxic team members. He explains, "Flawed team members cannot be left alone. If they are repairable in a short time frame, it is worth the effort. But this must be a forced march, with a firm timeline for repair. Otherwise plan to make the replacement quickly, as teams with toxicity are more likely to fail to hit their objectives. That hurts the team, the company and damages the reputation of the team leader."
+
+Jobs at startups are pass-fail: you’re either doing your job and you stay; or you're not and you have to go.
+Bruce Borden, founder and technical leader of 3Com, the first of 3 startups with 3 successful exits; manager of the first workstation development at Silicon Graphics in 1983; and chief scientist at General Dynamics
+Bruce, in his talk to the Silicon Valley Engineering Leadership Community meetup in 2016, shared this simple performance review formula for engineers on his teams. He adds, "in a large company, the cost of recruiting and training justifies working with under performing employees, and there are some great examples of employees simply in the wrong position or team (personalities) who flourish with job reassignment & coaching."
+
+If you’re just using your engineers to code, you’re losing half their value.
+Marty Cagan, author, Inspired: How To Create Products Customers Love, and founding partner of the Silicon Valley Product Group
+In delivering his comments to a web-product corporate audience in 2016, Cagan continued, “The single biggest innovator in many companies is the tech lead.” Cagan drove this point and another about collocation home by pointing to three chairs next to each other at the front of the audience... "I want to see the product manager, the UX designer and the tech lead sitting this close. You should consider these three people your co-product owners."
+
+We hire the best developers and designers and test engineers, paying them handsomely. Maker teams (collectively) have more brainpower than product managers. So let’s not assume that we [product managers] can write perfect stories or specs or requirements for them to implement exactly. We welcome questions, alternatives, and occasional heated arguments.... When our team understands the context of a problem and how users operate our software, they are empowered to imagine alternate solutions. Some will be better or faster or have a bigger impact on KPIs.
+Rich Mironov, in his 2021 blog post, How Product Can (and Can’t) Speed Up Development
+I learned this term [exposure hours] from Jared Spool who did research proving that teams who spend at least 2 hours per person every 6 weeks “exposed” to customers (e.g., taking support calls, talking to users, watching people in a store, etc) developed more successful products.
+Jeff Gothelf, in his blog post, 5 Rules for Integrating UX with Agile Scrum, citing Jared Spool's research that Jared reported in his article, Fast Path to a Great UX – Increased Exposure Hours
+...taking testing... to the ultimate: going to visit customers... having to go live with a customer for a week... a huge amount of insight into what it's like to actually use our stuff.... Going back afterwards, developers who had not had that experience all seemed arrogant to me in a way which was completely inexcusable. The lack of respect they had for the people who used our stuff was appalling.
+Douglas Crockford, in Peter Seibel's Coders at Work: Reflections on the Craft of Programming, (c) 2009, p.123
+Great maker teams are mission-driven: if we can pull them in, give them a visceral deep understanding of what our end users do (and what frustrates or blocks users), we nurture a real love for the folks who use our apps. So carefully connect developers and designers directly to actual user experiences clarifies their thinking and also boosts their enthusiasm. Emotionally committed teams can deliver twice the real value of paint-by-number/do-just-what-the-book-says/product-has-all-of-the-answers passivity.
+Rich Mironov, in his 2021 blog post, How Product Can (and Can’t) Speed Up Development
+Our goal should not be productivity, but to “Design and deploy a great customer experience quickly — again and again over time.” In order to respond to business, technology, and competitor turbulence in the market we have to focus on delivering a superior customer experience, building new features, and improving the delivery engine that allows us to deliver quickly each and every release cycle.
+Jim Highsmith, Velocity is Killing Agility, 2011
+If you don’t put them [bugs] in, you don’t have to take them out.
+Dave Cutler, System Programmer, Microsoft and, earlier, Digital Equipment Corporation, on the occasion of his being named a Computer History Museum Fellow in April 2016, commenting in MSpoweruser.com
+Dave continued, “I am a person that wants to do the work. I don’t want to just think about it and let someone else do it. When presented with a programming problem, I formulate an appropriate solution and then proceed to write the code. While writing the code, I continually mentally execute the code in my head in an attempt to flush out any bugs. I am a great believer in incremental implementation, where a piece of the solution is done, verified to work properly, and then move on to the next piece. In my case, this leads to faster implementation with fewer bugs. Quality is my No. 1 constraint – always. I don’t want to produce any code that has bugs – none.” Dave Cutler is one of the greatest (and possibly the greatest) Systems Programmer. His legacy includes designing and implementing three of the greatest operating systems ever: Digital’s RSX-11M, VMS, and Microsoft’s Windows NT (the basis for all Windows operating systems ever since). Additionally he did hardware design for Digital's MicroVAX chip, designed and implemented Microsoft Azure cloud services, and designed and wrote the hypervisor for Xbox One.
+
+When I first wrote The Mythical Man-Month in 1975, I counseled programmers to "throw the first version away," then build a second one. By the 20th-anniversary edition, I realized that constant incremental iteration is a far sounder approach. You build a quick prototype and get it in front of users to see what they do with it. You will always be surprised.
+Fred Brooks, in an interview with Kevin Kelley, Wired, August 2010, "The Master Planner"
+It's no surprise to find Fred Brooks espousing the principles of agile and lean.
+
+Start with a vision, rather than a set of features.... Great design does not come from great processes; it comes from great designers.
+Fred Brooks, in an interview with Kevin Kelley, Wired, August 2010, "The Master Planner"
+Fred went on to say, “Edwin Land, inventor of the Polaroid camera, once said that his method of design was to start with a vision of what you want and then, one by one, remove the technical obstacles until you have it. I think that’s what Steve Jobs does. He starts with a vision rather than a set of features.”
+
+The critical thing about the design process is to identify your scarcest resource; then you have to make sure your whole team understands what scarce resource you’re optimizing.
+Fred Brooks, in an interview with Kevin Kelley, Wired, August 2010, "The Master Planner"
+Elaborating, Fred continued: “Despite what you may think, that (scarce resource) very often is not money. For example, in a NASA moon shot, every ounce of weight requires tons of material below. On the design of a beach vacation home, the limitation may be your ocean-front footage.”
+
+85% of the reasons for failure are deficiencies in the systems and process rather than the employee. The role of management is to change the process rather than badgering individuals to do better.
+W. Edwards Deming
+For 10 people, don’t devote anyone to engineering effectiveness.” [People will figure out what they need on their own.]
+    “For 100 engineers, devote two people” [to making tools and other support better] “and they’ll be as productive as 101 engineers.”
+    “In a group of 1000, 255 engineers need to support the rest, and they’ll be as effective as more than 1400 engineers.
+    “And in a group of 10,000 (the size of Facebook’s engineering team), one-third of the engineers need to be working on engineering effectiveness.
+Peter Seibel, Tech Lead of Twitter’s engineering effectiveness group, Twitter's Tips for Making Software Engineers More Efficient, IEEE Spectrum
+Dead silence is a fairly reliable indicator of a project with productivity problems.
+Randall W. Jensen, Improving Software Development Productivity: Effective Leadership and Quantitative Methods in Software Management (Prentice Hall, 2015), p.26
+Jensen, in forging an approach to measuring productivity impact, identified coherent, iterative, effective communication as one of just three factors that can significantly impact productivity. Jensen cites Alistair Cockburn for his analogy of "convection currents" for communication flow in a development environment. "'Convection currents' of information move about a work area just like the movement or dispersion of heat and gas. Air moves freely through an area unless the air is blocked or diverted by an obstruction. Information moves in precisely the same fashion." Jensen goes on to indict facilities planners for the uniform cubicle-grid layout so prevalent in space planning today. "The cube farm, as it exists today, virtually eliminates information convection." But he holds his highest disdain for distributed software development. "People have at least some physical contact when in adjacent cubicles."
+
+Only go into an important meeting knowing that the most important person is already onboard. I’ve rescheduled meetings until I could achieve this and it has been incredibly helpful in moving things forward.
+Keavy McMinn, Senior Principal Engineer / API lead at Fastly, in her post, Building Bridges as a Technical Leader
+My own rule of thumb is to never go into an important meeting not knowing who is on board and who is not. It was important learning at Apple to socialize ideas - to always have the conversations you expect in a meeting beforehand in casual hallway conversations. In fact, Keavy opens her post by noting, to software teams and leaders, just how important marketing is internally - garnering support from across your company. She calls on technical leaders to build relationships and embrace cross-functional communication in order to do great work. "It’s really about 'making friends and telling stories'."
+
+The more leaders can understand where teams are, the more they will step back and let teams execute.
+Melissa Perri, Escaping the Build Trap
+Team communication is so, so, so important!
+
+VPs of Product and Engineering need to be fully aligned in public - 'shoulder to shoulder'.
+Rich Mironov, "Shoulder To Shoulder"
+A good guiding principle is “Don’t motivate people – remove the demotivators”. If people see you removing real impediments and creating a high-trust environment that helps them work effectively – that will probably motivate them a lot more than things like hawaiian t-shirt fridays, free drinks, and ping-pong tables.
+Henrik Kniberg, What is an Agile Leader?
+If your team is full of competent, driven engineers, removing their blockers is the fastest way to enable forward movement.
+Antoine Boulanger, Co-Founder and CEO at Okay, and Tomas Barreto, Co-Founder and CTO at Okay, both former Box senior engineering managers, in their post, Engineering Productivity Can Be Measured - Just Not How You'd Expect
+Done is better than perfect.
+Mark Zuckerburg
+A variant of “Perfect is the enemy of good” and “Always aim for the best result possible, not the best possible result.”
+
+In the tech industry we overestimate what we can achieve in one year, but underestimate what we can achieve in 10 years.
+Bill Gates
+...it comes back to worse is better. If you spend the time to build the perfect framework... well guess what: release 1.0 is going to take you three years to ship and your competitor is going to ship their 1.0 in six months and now you're out of the game. You never shipped your 1.0 because someone else ate your lunch. Your competitor's six-month 1.0 has crap code and they're going to have to rewrite it in two years but, guess what: they can rewrite it because you don't have a job anymore.
+Jamie Zawinski, in Peter Seibel's Coders at Work: Reflections on the Craft of Programming, (c) 2009, pp.22-23
+Why I really need pair programming: it forces me to sit down for three solid hours, or even two or one solid hour, and work on one thing with somebody else, and they force me to not be bored.
+Brad Fitzpatrick, in Peter Seibel's Coders at Work: Reflections on the Craft of Programming, (c) 2009, p.73
+You have to decide what your highest priorities are and have the courage - pleasantly, smilingly, nonapologetically - to say 'no' to other things. And the way to do that is by having a bigger 'yes' burning inside.
+Stephen Covey
+Good ideas are not adopted automatically. They must be driven into practice with courageous patience.
+Hyman Rickover, American admiral (1900–1986), cited in the opening of Jurgen Appelo's 2014 Management 3.0 book
+I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.
+Maya Angelou
+Writing clean code is what you must do in order to call yourself a professional developer.
+Uncle Bob Martin, author, Agile Manifesto, Clean Code, Clean Coder
+Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+Martin Fowler
+Start from the product, not the technology
+Ron Lichty
+Survey technology choices frequently. No one of us will know them all. We need to have a sense for what's appropriate for our problem set - and continually re-survey to expand the list. That way, when product leaders define product priorities, we're ready with options. But beware of "shiny" technologies. Products are about delivering value to users, not about making use of "cool."
+
+Apple's focus, from the very beginning, has been on the end-user's experience and not on the technology. Steve Jobs famously answered a kind of nasty question at a WWDC more than a decade ago about why he'd killed a particular software product by explaining that the hardest thing about what Apple did was to not try to make a product out of "technology", but to figure out what kind of product they did want to make and then use the technology to do it.
+David Schlesinger, former Apple networking engineering manager
+Everyone sits in the prison of his own ideas; he must burst it open.
+Albert Einstein, theoretical physicist
+Mickey relates, “Too many times I have seen, in retrospect, that challenging the status quo and pushing the edges of the envelope would have been the best thing to do. It is hard to innovate without breaking out of that prison of our own ideas. I wish I had learned earlier in my career to push harder and more often to break out of that box I put myself in."
+
+You can't connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future. ... This approach has never let me down, and it has made all the difference in my life.
+Steve Jobs, entrepreneur
+We need workplaces that harness people’s intrinsic motivation. Leaders have to get out of the way. Stop directing and supervising... Nurture and steward people on a quest.
+John Verdon, Former Futurist for Canadian National Defense, Complexity and Foresight Consultant
+The real hero is the guy who did the first draft.
+David C. Evans, Founder and CEO, Evans & Sutherland
+It's always easier to edit than to create the first draft. Hence the importance of this Rule of Thumb. This was related to Mickey by Rod Rougelot, after Mickey asked him if he had a list of Innovations that E&S had created. Rod was the GM of the Simulation Division of E&S and succeeded Dave as CEO after he retired. As Rod recalled "Dave used to say that the real hero was the guy who did the first draft. Be the hero, and perhaps if you plant a few seeds and engage some of the old timers in a collaborative effort, the list will materialize."
+
+Agile planning is deceptive. I’m always amused, and sometimes saddened, by the lack of understanding about agile planning... First, agile teams do a lot of planning, but it is spread out much more evenly over the entire project. Second, agile teams squarely face the critical factor that many non-agile teams ignore—uncertainty.
+Jim Highsmith, Agile Practice Director, Cutter Consortium, in his Foreword to Agile Estimating and Planning
+Highsmith adds, "Is planning important?—absolutely. Is adjusting the plan as knowledge is gained and uncertainty reduced important?—absolutely. I’ve gone into too many organizations where making outlandish early commitments, and then failing to meet those commitments, was acceptable, while those who tried to be realistic (and understanding uncertainty) were branded as “not getting with the program,” or “not being team players.” In these companies failure to deliver seems to be acceptable, whereas failure to commit (even to outlandish objectives) is unacceptable. The agile approach... is focused on actually delivering value and not on making outrageous and unachievable plans and commitments. Agile developers essentially say: We will give you a plan based on what we know today; we will adapt the plan to meet your most critical objective; we will adapt the project and our plans as we both move forward and learn new information.... Many traditional planners don’t understand a key concept—you can’t “plan” away uncertainty.... Many project management approaches appear to be “plan, plan, plan-do.” Agile approaches are “plan-do-adapt,” “plan-do-adapt.” The higher a project’s uncertainties, the more critical an agile approach is to success."
+
+It should be clear that no manager, no architect, no designer, no matter how lofty, can precisely estimate just how many features can be done by how many programmers in how much time.
+Ron Jeffries, in his 2005 blog post, "Making the Date"
+For the past 40 years, for example, we’ve tortured ourselves over our inability to finish a software project on time and on budget. But as I hinted earlier, this never should have been the supreme goal. The more important goal is transformation, creating software that changes the world or that transforms a company or how it does business. We’ve been rather successful at transformation, often while operating outside our control envelope. Software development is and always will be somewhat experimental. The actual software construction isn’t necessarily experimental, but its conception is. And this is where our focus ought to be. It’s where our focus always ought to have been.
+Tom DeMarco, Why does software cost so much? And other puzzles of the Information Age, New York, NY: Dorset House Publ., 1995, p. 95
+Software people are not alone in facing complexity. Physics deals with terribly complex objects even at the “fundamental” particle level. The physicist labors on, however, in a firm faith that there are unifying principles to be found, whether in quarks or in unified field theories. Einstein argued that there must be simplified explanations of nature, because God is not capricious or arbitrary.
+    "No such faith comforts the software engineer. Much of the complexity that he must master is arbitrary complexity, forced without rhyme or reason by the many human institutions and systems to which his interfaces must conform. These differ from interface to interface, and from time to time, not because of necessity but only because they were designed by different people, rather than by God.
+Fred Brooks, in his 1986 paper on software engineering, "No Silver Bullet — Essence and Accidents of Software Engineering", which is included in the anniversary edition of his book, The Mythical Man-Month
+It’s not that we don't have enough time. We have too much to do.
+Chet Hendrickson, member of the very first XP project team
+Ron Jeffries in his 2005 blog post, "Making the Date", remembered, "A long time ago, on the very first XP project, we were faced with a huge pile of things to do, and it was clear that we didn’t have enough time. We were pretty much in a panic. Then Chet Hendrickson [made the above observation]. That change of outlook changed everything. It focused us on what we could do.... A project needs to start with more goals than can be accomplished. It’s only by looking at a wide range of possible ideas that we can be sure we’ve got the important ones. Then, we need to decide which ones we really need. And then, informed by reality, we need to decide which ones we can actually have."
+
+Courage is the first virtue that makes all other virtues possible.
+Aristotle
+If you just work on stuff that you like and are passionate about, you don’t have to have a master plan with how things will play out.
+Mark Zuckerberg
+Optimism is still widely used as a management tool.
+Randall W. Jensen, Improving Software Development Productivity: Effective Leadership and Quantitative Methods in Software Management (Prentice Hall, 2015), p.13
+Poor management can increase software costs more rapidly than any other factor.
+Barry Boehm, Software Engineering Economics (Prentice Hall, 1981), p.486
+The best Scrum teams implement XP engineering practices inside the Scrum. The best XP teams wrap Scrum around XP as it allows them to scale and take advantage of the high performance gains possible with Scrum.
+Jeff Sutherland, co-creator of Scrum, in his Quora response to What are the differences between SCRUM, XP and Agile in general?
+Work doesn't have to suck... it can be an expression of joy, an alignment toward a higher purpose.
+Jeff Sutherland, co-creator of Scrum, in his book, Scrum: The Art of Doing Twice the Work in Half the Time, p.39
+There is also agreement that developer productivity is necessary not just to improve engineering outcomes, but also to ensure the well-being and satisfaction of developers, as productivity and satisfaction are intricately connected.
+Nicole Forsgren, GitHub; Margaret-Anne Storey, University of Victoria; Chandra Maddila, Thomas Zimmermann, Brian Houck, and Jenna Butler, Microsoft Research: The SPACE of Developer Productivity: There's more to it than you think.
+Research has shown that high productivity is highly correlated with feeling satisfied and happy with work. Finding ways to improve productivity is also about finding ways to introduce more joy, and decrease frustration, in a developer's day.
+Nicole Forsgren, GitHub; Margaret-Anne Storey, University of Victoria; Chandra Maddila, Thomas Zimmermann, Brian Houck, and Jenna Butler, Microsoft Research: The SPACE of Developer Productivity: There's more to it than you think.
+What can companies do to create an atmosphere in which people thrive? Managers can encourage autonomy by letting people make their own decisions about their job. And they can make sure that employees know everything that's going on, because, as they put it, 'Doing your job in an information vacuum is tedious and uninspiring.' Managers should also have zero tolerance for incivility and never allow an employee to poison corporate culture through abuse or disrespect. And, finally, they should give quick and direct feedback.
+Jeff Sutherland, co-creator of Scrum, in his book, Scrum: The Art of Doing Twice the Work in Half the Time, p.162
+Sutherland goes on regarding his core topic, "Scrum gives people all those things. It's set up to make them happen, especially the direct feedback, which happens every day in the Daily Stand-up meeting, and which is what the Sprint Retrospective and the Happiness Metric are designed to illuminate." What is important about Sutherland's book is not the recounting of the practices - there are no end of books that provide those - but the spirit of agile and of scrum that pervades his thinking now - and obviously did back then.
+
+Producing the instructions with the keyboard is not where the work happens. The work is in interpreting the requirements, producing and testing the design, correcting faulty reasoning, coordinating the work with others working on the task, and producing the documentation.
+Randall W. Jensen, Improving Software Development Productivity: Effective Leadership and Quantitative Methods in Software Management (Prentice Hall, 2015), p.8.
+You cannot inspect quality into a product.
+W. Edwards Deming
+...no matter how excellent your technicians, you who are leaders must strive for advances in the improvement of product quality and uniformity if your technicians are to be able to make improvements. The first step, therefore, belongs with management. First, your company technicians and your factories must know that you have a fervor for advancing product quality and uniformity and a sense of responsibility for product quality. Nothing will come of this if you only speak about it. Action is important.
+W. Edwards Deming, 1950, in a talk to Japanese business leaders
+Deming is often cited as the single most important thought leader responsible for rebuilding the Japanese economy after WWII, introducing the concepts of "lean" manufacturing and launching the Japanese automotive (and other) industries on a trajectory to outperform every competitor in the world. His famous PDCA cycle - Plan, Do, Check, Act - at the time a radical idea - is the basis not only for Lean manufacturing but for all of Agile product development, including Scrum, Extreme Programming and Kanban.
+
+When a programmer says, 'it works on my machine', grab their machine and ship it to the customer!
+Richard Sheridan, founder of Ann Arbor-based Menlo Innovations, speaking to the Bay Area Agile Leadership Network (BayALN), May 20, 2014
+Sheridan, making the case, as nearly all agilists do, that teams must agree on a common definition of 'done' and live up to the standard they set, noted that teams are otherwise subject to the fact that 'programmers have as many words for "done" as Eskimos have words for "snow".'
+
+Is it Done done?
+Jeff Freund, Founder and CTO, Clickability
+Jeff notes,
+   done == it works
+   Done done == it is ready for production (tested, validated, signed-off on, ready to roll!)
+This is a fun one as it applies broadly across the entire business. Sales guys get really excited about stuff like verbal commitments. But you can't stop pushing until things are truly Done done.
+
+As you gain more agility you have to have more discipline - they have to go together.
+Ryan Martens, founder and CTO, Rally, speaking at Silicon Valley AgileCamp 2014
+Martens says agile needs to become a biorhythm throughout the organization, and urges companies to extend agile beyond execution teams.
+
+The effect [of TDD, Test Driven Development] on quality is unparalleled. This rigor ensures that silly human mistakes are caught automatically without having to remember all the little things that can go wrong.... The rigorous application of an automated unit testing framework at Menlo is one of the strongest technical disciplines of our shared belief system. New programmers being onboarded are taught this approach by their pair partner. Quality soars, morale soars, and productivity soars, because we can move ahead faster with the confidence that we are not breaking things that have worked in the past.
+Richard Sheridan, founder of Menlo Innovations in Ann Arbor, in his book, Joy, Inc.: How We Built a Workplace People Love
+[With respect to TDD, Test Driven Development, Ted Young challenges us to ask our developers:]
+• How many of you spend time in the debugger?
+• How many of you like spending time in the debugger?
+Ted M Young, SpiralLearningLLC, creator of JitterTed's TDD Game
+The important thing is not your process. The important thing is your process for improving your process.
+Henrik Kniberg, agile trainer and author
+At its root, Scrum is based on a simple idea: whenever you start a project, why not regularly check in, see if what you're doing is heading in the right direction, and if it's actually what people want? And question whether there are any ways to improve how you're doing what you're doing, any ways of doing it better and faster, and what might be keeping you from doing that.
+Jeff Sutherland, co-creator of Scrum, in his book, Scrum: The Art of Doing Twice the Work in Half the Time, p.9
+The daily stand-up is not a status report. It is an alignment and prioritisation meeting. One of the complaints I often encounter about daily stand-ups is that it is just a status report as the 'team' has no shared tasks. Of course, we now know that the problem is likely to be that the team is not a team at all, just a group of people who happen to work together.
+Em Campbell-Pretty, in her book, Tribal Unity: Getting from Teams to Tribes by Creating a One Team Culture, p.18
+Em's observation highlights our mantra, Software development is a team sport. To engage teaming in standups, Em uses a technique she learned from colleague Brian Adkins to ask, What is our plan of attack - as a team - for our work today? To the same end, Ron teaches teams a practice to, at the end of every standup, have the entire team respond to the question, Are we on track to deliver our sprint plan?, using the fist-to-five technique. It shifts the conversation from How am I doing to How are we doing.
+
+Scaling a process-based organization is a thoughtful pursuit; scaling a hero-based environment is insanity.
+Richard Sheridan, founder of Menlo Innovations in Ann Arbor, in his book, Joy, Inc.: How We Built a Workplace People Love, p.201
+Rich makes clear in his book that by "scaling", he means both scaling up and scaling down. Hero-based environments are even harder to scale down than up!
+
+Code without tests is bad code. It doesn’t matter how well written it is; it doesn’t matter how pretty or object-oriented or well-encapsulated it is. With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don’t know if our code is getting better or worse.
+Michael Feathers, author, Working Effectively with Legacy Code
+In the absence of a strategy, every tactic is of equal value.
+Mark Miller, author, The Heart of Leadership
+A system must be managed. It will not manage itself. Left to themselves, components become selfish, competitive, independent profit centers, and thus destroy the system. . . . 
+W. Edwards Deming, The New Economics, 1994, MIT Press
+The agile methods are deceptively simple and common sense oriented. In many ways, that’s one of their great strengths, but it’s also one of their fundamental weaknesses. I see so many teams convinced that they can “go Agile” just by reading a book or an article and then diving in and “sprinting” towards successful software delivery. The logic goes that agile is simple common sense practices, self-directed, and intuitive — so of course it will be simple to pick up and execute.... These teams adopt a small, superficial, and somewhat trivial set of the core agile practices and then think they’re agile. In almost every case they don’t understand the agile mindset nor how the core principles and practices complement one another to foster improvement. They’re “doing Agile”, but they’re not “being Agile”.
+Robert 'Bob' Galen, "The Agile Project Manager: Agile Basic Training – What Is an Acceptable Level?", Executive Briefing, September 2012
+Agile’s wins don’t come from learning drills and nomenclature but in meaningfully applying them – which requires understanding the meaning behind the drills – application of agile’s principles to the unique culture and challenges each team and each company faces.
+Ron Lichty, "Colleges: Teach the 'How'!", Silicon Valley Project Management blog, UC Santa Cruz, June 4th, 2013
+Any agile transformation is one management change away from failure.
+Brent Barton, now with Rally, then w Solutions IQ, as quoted by agile and management coach Earl Everett
+When teams self-organize there's still plenty for managers to do... a manager's job is to engineer the organization so that teams can do their best work.
+Esther Derby, co-founder, Scrum Alliance, and co-author, Behind Closed Doors
+Managers are still needed. Not so much for their planning and controlling ability, but for the important job of interfacing on the team’s behalf with the rest of the organization.
+Diana Larsen, “Team Agility: Exploring Self-Organizing Software Development Teams”, The Agile Times Newsletter, 2004.
+A common misconception is that because of this reliance on self-organizing teams, there is little or no role for leaders of agile teams. Nothing could be further from the truth.
+Mike Cohn, Succeeding with Agile
+Managers have a critical role to play: in the success of transitions to agile - and in the success of agile. But have you ever had a scrum trainer who drew the picture of a scrum team and drew in a manager? Instead we do 2 days of training the team and leave managers scratching their heads wondering what their role is.
+
+Lean-Agile management is the art of leading people, not managing them... Leading people involves creating the correct environment, focusing them on the right things, and trusting them to do their work... In Lean-Agile, the manager has two primary responsibilities: setting the outcomes or goals expected of the team; assisting the doers in creating a better process and workspace to get their jobs done... The Lean-Agile manager should be relentless in raising awareness of the two biggest wastes in software development: delays and building what is not needed.
+Alan Shalloway, Net Objectives, and author, Lean-Agile Software Development
+Sounds like three primary responsibilities to me! (or is that four?) Regardless of number, they're important, needed stuff.
+
+An empowered team knows what decisions they can make and what communications are expected.
+Ian Thomas, VPE, Getty Images
+Ian shared his definition of an empowered team with the Managing Software Teams in Seattle community in his presentation on "Pro-Tips for Re-Platforming” April 2020.
+
+As soon as you move one step up from the bottom, your effectiveness depends on your ability to reach others through the spoken and written word.
+Peter Drucker
+As we look ahead into the next century, leaders will be those who empower others.
+Bill Gates
+Users will often ask you for a solution when it would really be more helpful to tell you that they have a problem.
+Laura Klein, "6 Reasons Users Hate Your New Feature"
+"The upshot is that users aren’t great predictors of which brand new features will be big hits. Sometimes users will tell you that they want a toaster in their car, when what they really mean is that they don’t have time to make breakfast in the morning. Before building a new feature that your customers are demanding, ask yourself, 'What known user problems is this solving, and is this the best way to solve it for everybody?'"
+
+Sometimes the only way to find out what customers want is to give them what they ask for.
+Dennis Pozzi, Operations Engineer, Adobe Systems
+5 management tips from Microsoft CEO Steve Ballmer:
+       1. Make sure you see the whole playing field
+       2. Don't pin hopes on a single individual or "dream team"
+       3. Realize there's no perfect business model perfect for every era
+       4. Don't place only long-term or only short-term bets
+       5. Know your limits
+Fortune, December 12, 2013
+As an admittedly business/sales-focused guy, Ballmer delivers advice applicable not just for tech CEOs. His lessons learned should carry weight, argues Microsoft watcher, Wes Miller, an analyst at research outfit Directions on Microsoft, Kirkland, Washington.
+
+What makes a good developer a great developer is willingness to take risks. You can measure a developer's willingness to take risks by the frequency they check into source control. Source control is their safety net.
+Ike Ellis, in his talk on "Continuous Integration", Silicon Valley Code Camp 2013
+The bitterness of poor quality remains long after the sweetness of meeting the schedule has been forgotten.
+Anonymous
+Shared with us by Kimberly Wiefling and Irina Elent
+
+Recent research from Harvard professor Leslie Perlow found that forcing Boston Consulting Group consultants to unplug one night a week increased their productivity and job satisfaction.
+Michael Healey, "IT Doesn't Hate End Users: Tech is accepting the benefits of consumerization", InformationWeek, May 28, 2012, p.29
+Hire seniors for output, hire juniors for passion.
+Bill Boulden, fractional CTO, in his talk, "Twenty Startups, Twenty Lessons", 8.01.23
+I never hire candidates - for any position - from whom I've been unable to learn something during our interview.
+Ron Lichty
+I now approach interviewing candidates as an opportunity to learn. It took me some time, as a manager, to learn this: There is no position I've ever interviewed candidates for - whether technical or business or an admin assistant - that I shouldn't expect to get value and insight from a good candidate. It has become a litmus test in my hiring.
+
+I had a golden opportunity to test some of the prevalent folk wisdom about hiring. The results were pretty surprising... Of many attributes I tested, the three that achieved any kind of statistical significance were 1) grammatical errors/typos/syntactic inconsistencies, 2) whether the candidate worked at a top company and 3) whether you could tell from their resume what they did at each of their previous positions. Two out of the three attributes, in other words, had to do with a candidate's written communication skills.... 
+Aline Lerner (former programmer, turned recruiter) in her blog post Lessons from a year’s worth of hiring data
+Given her finding, Aline recommends, to hire the right software developer, get a writing sample! ("it should be a concise description of something [the developer] worked on recently that [he or she is] excited to talk about as explained to a non-technical audience.") Read her blog post: she also debunked other folk wisdom (revealing, for example, that while top-company pedigree is linked to success, undergraduate pedigree is not!).
+
+Aline's continued research at her company, interviewing.io, has delved into unconscious bias - eliminating signals ranging from an ethnic-sounding or gender-revealing name to vocal tone - and leveraging a coding challenge up front, to find best programmers before unconscious interviewer bias kicks in.
+
+Task-switching penalty = Mechanics of moving to a new task
+      + Rework due to inopportune abort
+      + Immersion time for think-intensive tasks
+      + Frustration (emotional immersion)
+      + Loss of team binding effect.
+Tom DeMarco, author, Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency
+Create the right balance between rewarding teams and rewarding heroes, and you'll have many team members willing to save the day, but few times when you need them to do so.
+Mickey and Ron
+OK, we said this on p.341. It's in the book already. But we keep finding ourselves talking about rewards and about being careful what you reward - about rewarding teamwork and about using care before rewarding heroes. We realized with this simple statement, we had captured that complexity.
+
+Push back HARD against individual corporate reward systems; push instead for team rewards and goals. Software development is a team sport.
+Rich Mironov, in his 2021 blog post, How Product Can (and Can’t) Speed Up Development
+With his last sentence, Rich was citing what has become Ron's key mantra.
+
+If everything's a priority, then nothing is a priority.
+Sheila Brady, then system software program manager at Apple
+When Sheila shared this with me at Apple, I realized I was in the presence of an especially wise sage - and recognized the power of a rule of thumb, possibly for the first time. Lack of prioritization is one of the banes of our existence, as developers. Prioritization is essential.
+
+According to the etymology, the word "priority" was conceived to define the first (or prime) thing to be done or noticed regarding to a defined context.... The use of the word "priorities" was almost nonexistent before 1940. By the way: "top priority" is a perfect grammar example of redundancy.
+Giovani Herom Santos, in his article, One thing about the word "PRIORITY" nobody has told you ... yet!
+“Priorities” (plural) is a one word oxymoron.
+Jeff Patton quoting a client
+When you think you need another engineer, pause and consider whether what you really need is a manager to get more out of your existing engineers.
+George Arison, co-founder and CEO of online used car marketplace Shift, in his TechCrunch post on disregard for managers
+The manager's function is not to make people work, but to make it possible for people to work.
+Tom DeMarco and Timothy Lister, Peopleware, p.34 (third edition)
+Every outstanding programming manager we know either has Peopleware on their shelf next to The Mythical Man-Month - and pulls both down to consult regularly - or is searching their office trying to figure out where they went. (Hint: there are replacement copies to be had at Amazon.)
+
+Listen to your teams - they’ll tell you what’s broken.
+Sally Elatta, founder, AgilityHealth, and former software architect
+No four-legged fish!
+Jeff Freund, Founder and CTO, Clickability
+Jeff notes, "Four-legged fish (Ichthyostega) are all those evolutionary dead-ends. The fish got legs for a reason, but in the end, it really didn't work out. In software development, four-legged fish are those temptations to do one-offs, customer specific code, short-cuts to fix later, hard-coded things that shouldn't be, etc. In biology, evolutionary missteps die off; in software, they pollute code and product, making it harder to maintain, enhance, understand, etc."
+
+You must maintain the core principles of Continuous Improvement and No Surprises! always
+Jeff Freund, Founder and CTO, Clickability
+Jeff notes, "This is especially true during periods of rapid change: business/product turn-arounds, high growth, re-orgs, new process definition. The first principle will ensure you will make mistakes only once and feel like you are moving forward and generally making things better. The second is equally as important: surprises will kill you due to lost time and attention."
+
+Software projects don't go bad, they start bad. Here's what's needed:
+       1. Clear and quantified business value
+       2. Budget that's roughly in the ballpark
+       3. Team that has the right skillset
+    Unless ALL these three things are checked off, I don't recommend starting a software project.
+Pradeep Ananthapadmanabhan, CTO, Digital Marketing Technologies Hub, Vivaki
+Pradeep continues, "A LOT of waste in the software industry is caused by starting a project without having these in place with the 'assumption' that these three things can be figured out as you go along. That simply NEVER ever happens in my experience. On the contrary it always ends up in a lose-lose situation for everyone involved."
+
+Obscurity and obsessive abstraction are two of the worst problems that affect software development; they combine into a form of willful ignorance that makes us write crappy code.
+Marco Tabini, http://blog.tabini.ca/the-7-bit-internet/
+Amen.
+
+You can't manage an Agile Portfolio without a roadmap! Starting with a list of projects isn't effective: It lacks the foundation of a strategic plan and a means for getting there. That's a roadmap, simply put.
+Luke Hohmann, author of Beyond Software Architecture: Creating and Sustaining Winning Solutions, in his August 2018 email newsletter
+Luke adds some further light on roadmaps, "A roadmap is a perspective on the future that transcends the tactical pressure of the next release or Program Increment while breathing enough detail into your vision to make that vision a reality. A useful roadmap provides the essential glue between vision and execution, guiding and inspiring the team and creating a powerful tool for customer and stakeholder collaboration on how that future unfolds."
+
+Pushing more things onto the roadmap: We’ve known since the 1970’s that overloading a development team reduces their total output. On average, committing a team to 110% of their capacity means getting less IN TOTAL than 85% or 90% loading. With no slack, we can’t handle the inevitable surprises that (unsurprisingly) pop up in most sprints: system outages, hard-to-whack bugs, family emergencies, misbehaving partner APIs, customer demos, HR meetings about new benefits. When we’re overloaded, we cut corners and accumulate product debt.
+Rich Mironov, in his 2021 blog post, How Product Can (and Can’t) Speed Up Development
+If you want flow, stop the flooding.
+Sally Elatta, founder, AgilityHealth
+You can't foresee everything at the beginning of the execution process. It is inevitable that something will come up that forces a tradeoff decision between delivery time, complexity or feature richness of the product, and quality of the experience. These are some of the hairiest conversations, and everyone needs to have a structured and deliberate approach to the decision.
+Andy Johns, ex-Wealthfront, Quora, Facebook, and Matt Greenberg, CTO at Reforge, former VPE at Credit Karma
+Plans are worthless, but planning is everything.
+Dwight D. Eisenhower, World War II leader and U.S. President, in a 1957 speech (Public Papers of the Presidents of the United States, Dwight D. Eisenhower, 1957, Containing the Public Messages, Speeches, and Statements of the President, remarks at the National Defense Executive Reserve Conference, November 14, 1957, p. 818, published by the Federal Register Division, National Archives and Records Service, General Services Administration, Washington D.C.)
+There's just a tremendous amount of craftsmanship in between a great idea and a great product.
+Steve Jobs, in Steve Jobs: The Lost Interview, 1995 television interview with Robert X. Cringely
+Steve's whole quote is much longer but (no surprise) equally revealing: "One of the things that really hurt Apple is that, after I left, John Sculley got a very serious disease. I've seen other people get it too. That disease is the disease of thinking that a really great idea is 90% of the work. And that if you just tell all these other people, here's this great idea, of course they can go off and make it happen. The problem with that is that there's just a tremendous amount of craftsmanship in between a great idea and a great product. And as you evolve that great idea, it changes and grows - it never comes out like it starts - because you learn a lot more as you get into the subtleties of it, and you also find there's tremendous tradeoffs that you have to make - there are just certain things that you can't make electrons do - there are certain things you can't make plastic do or glass do - or factories do - or robots do. And as you get into all these things, designing a product is keeping 5,000 things in your brain - these concepts - and fitting them all together and continuing to push to fit them together in new and different ways to get what you want. And every day you discover something new - a new problem or new opportunity to fit things together a little differently. And it's that process that is the magic."
+
+Part of what made the Macintosh great was that the people working on it were musicians and poets and artists and zoologists and historians who also happened to be the best computer scientists in the world.
+Steve Jobs, in Steve Jobs: The Lost Interview, 1995 television interview with Robert X. Cringely
+It doesn’t make sense to hire smart people and then tell them what to do; we hire smart people so they can tell us what to do.
+Steve Jobs, in Steve Jobs: His Own Words and Wisdom
+Part of Steve's role was to drum into us how important what we were doing actually would be to the world.
+Andy Hertzfeld, interview by Robert Cringely dated 11/05, curated as part of the Steve Jobs: The Lost Interview DVD.
+Andy continued, "We understood that if we pulled it off - obviously there was no guarantee that we would - but if we pulled it off, Apple was in a position to change the world with our work. And I think we did, to a large extent."
+
+I found that when you get enough 'A' players - when you go through the incredible work to find five of these 'A' players - they really like working with each other - they've never had a chance to do that before. And they don't want to work with 'B' and 'C' players. So it becomes self-policing and they only want to hire more 'A' players.
+Steve Jobs, in Steve Jobs: The Lost Interview, 1995 television interview with Robert X. Cringely
+Steve's whole quote is much longer but (no surprise) equally revealing: "In most things in life, the dynamic range between average and the best is at most two-to-one. If you go to New York City and you get an average taxicab driver vs the best taxicab driver, you're probably going to get to your destination with the best taxicab maybe 30% faster. In an automobile, what's the difference between average and the best, maybe 20%? The best CD player and an average CD player, 20%? Two-to-one is a big dynamic range in most of life. In software - and it used to be the case in hardware, too - the difference between average and the best is fifty-to-one. Maybe a hundred-to-one. Very few things in life are like this. But what I was lucky enough to spend my life in is like this. And so I've built a lot of my success on finding these truly gifted people and not settling for "B" and "C" players. Really going for the "A" players. And I found something - I found that when you get enough "A" players - when you go through the incredible work to find five of these "A" players - they really like working with each other - they've never had a chance to do that before. And they don't want to work with "B" and "C" players. So it becomes self-policing and they only want to hire more "A" players. And so you build up these pockets of "A" players and it propagates. And that's what the Mac team was like. They were all "A" players. These were extraordinarily talented people."
+
+Code review is as much about improving the code as it is improving the developer.
+Adarsh Pandit, developer at thoughtbot, shared 4/17/13 in a webinar on agile development
+Using money as a motivator is like playing with dynamite because money is a VERY effective motivator. Monetary rewards motivate people to do EXACTLY what is being rewarded – not necessarily what the organization intended to reward, but EXACTLY what is being measured to generate the reward. Therefore monetary motivators have a long track record of generating unintended consequences. If there is any apparent competition for the money, money motivates people to get as much as they can for themselves. Thus monetary motivators have a track record of suppressing collaboration. Finally, bonuses for performance rapidly come to be an expected part of the landscape, replacing passion and dedication as motivators. These are things you probably cannot change about using money as a motivator.
+Mary Poppendieck, posting to the Lean Software Development group in 2008
+If you build a performance management system that rewards heroes and rock stars, you will get people who spend their time focused on looking better than their teammates, instead of collaborating with them.
+Scrum guru Chris Sims, in his blog post, Managing the Performance of Scrum Team Members, 2013.
+Five minutes into my initial interview with Steve, I wanted to throw caution and logic to the wind and join Apple. My intuition told me that joining Apple would be a once-in-a-lifetime opportunity to work for a creative genius. Engineers are taught to make a decision analytically, but there are times when relying on gut or intuition is most indispensable.
+Tim Cook, who joined Apple in 1998 and would take over managing the company on Steve's death, as quoted in Steve Jobs (Simon & Schuster, 2011), by Walter Isaacson, p.360
+Isaacson notes of Cook, "He had always been a very logical engineer, and Compaq then seemed a more sensible career option, but he was snared by Jobs's aura." His gut told him to join Apple, and he made a right choice. We've found hiring to be another of the places where gut or intuition is indispensable. Sooner or later, you'll find one or more members of your interview team (maybe even you) adding layer on layer of analysis to sway you to hire - or not. Never, ever, in hiring, allow analysis to dismiss the truth your gut is telling you.
+
+There's a temptation in our networked age to think that ideas can be developed by email and iChat. That's crazy. Creativity comes from spontaneous meetings, from random discussions. You run into someone, you ask what they're doing, you say, 'Wow,' and soon you're cooking up all sorts of ideas.
+Steve Jobs on his strong belief in face-to-face meetings, as quoted in Steve Jobs (Simon & Schuster, 2011), by Walter Isaacson, p.431
+Peer pressure and the distaste for letting down a colleague will motivate a team player more than any fear of authoritative punishment or rebuke.
+Patrick Lencioni, author, Field Guide to Overcoming the Five Dysfunctions of a Team
+We are not the user.
+button, SIGCHI Conference of ACM, mid-90s
+Ron notes, “I joined the Computer-Human Interface (CHI) Special Interest Group of ACM while at Apple. I found myself responsible for the user experience of a segment of Apple's applications that were lacking dedicated designers, later offered to teach third party developers what I'd learned about UI design, and ultimately got to manage development of the Mac's UI, Apple's crown jewels. I was still in the first of those three, I think, when I attended a CHI conference during which we were all handed this rule of thumb as a button to wear. It stuck with me (no pun intended): If the folks closest to design were reminding themselves they aren't the user, I and my team certainly weren't!”
+
+Always be recruiting
+Mickey and Ron
+This is a rule of thumb that's important enough that we spend a whole section of the book on the topic. We summarized our chapter on hiring by noting that hiring is likely the most important job you'll do as a programming manager, concluding, "And remember that while hiring is an event, recruiting is a part of your job you should always have turned 'on.'" Since the book's publication, as we've talked about managing by rules of thumb, we've both ordered "Always be recruiting" at the top of the list.
+
+I inspect what I expect.
+Alan Lefkof, president and CEO of Netopia for many years
+A Rule of Thumb that Ron returns to over and over is "Trust but Verify." He notes, “For me, I think it expresses both the imperative not to micromanage and the essence of delegation. Alan Lefkof expressed the same thought another way in this Rule of Thumb. He told me he'd learned it from Lou Gerstner when he was at McKinsey. I find myself doing more and more mentoring of managers at all levels (Ron Lichty Consulting) and these are a couple Rules of Thumb I often share as a pair.”
+
+My innovation to the Agile way of working is to have all my teams - local, nearshore, or blended - run one-week sprints because two weeks is too long for us. It's amazing what you can accomplish in a year when you have 52 chances to get feedback, think about what you're doing, and make it better. My philosophy is to give freedom to team members and inspect frequently. We give people a goal and they get a week to figure it out. And at the end of the week, we do a retrospective of what we learn. And if someone made a mistake, well, we learned something and we learned it fast. I don't get pissed off about mistakes, but I do get pissed off when I see the same mistakes again and again.
+Patrick Mee, Executive VPE, NextRoll, contributing to Andy Hilliard's book, Synergea, 2024
+There are no best technologies, only technologies that are among better ones for particular problems and problem sets
+Ron Lichty
+All of us who deal with technology have to be careful of "shiny" technologies. (We also have to be careful not to jump to skepticism based on how many times shiny things haven't worked out.) Choosing technologies is a question of balance between what will speed development and the cost of ensuring new code is consistent with existing code base technologies, can be delivered and maintained within the skillset of the team, and will be reliable, scalable and extensible.
+
+Beware of 'shiny' technologies
+Mickey and Ron
+Or as we put it in the section on "Technology Offense and Defense," ensure that your staff is not seduced by the allure of new "shiny things." In this section we also share Obi-Wan Kenobi’s rule of thumb, “Beware the dark side of the force.” New technologies are the “dark side of the force” for programmers, who will spend countless hours exploring unproved technologies rife with potential to introduce risk if embraced before broad acceptance, extensive field testing, and guaranteed support by those promoting the technologies.
+
+Software development organizations ship their organization chart.
+Glynn Morrison, stating one of the variants of Conway's Law
+We quoted Eric Raymond's version of Conway's Law in the Rules of Thumb section of our book, as well as James Coplien's and Neil Harrison's version. Al Shalloway provides yet another, "When development groups change how their development staff are organized, their current application architecture will work against them." Conway's own original, "Organizations which design systems... are constrained to produce designs which are copies of the communication structures of these organizations."
 
 
 # Book References
